@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#tab-username .el-form-item__content div:nth-child(1) input[type=text]'</value>
+         <value>#tab-username .el-form-item__content div:nth-child(1) input[type=text]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
