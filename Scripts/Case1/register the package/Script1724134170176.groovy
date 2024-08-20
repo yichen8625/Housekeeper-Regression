@@ -22,35 +22,35 @@ WebUI.navigateToUrl("https://test.kingnetsmart.com.tw/community/main.aspx")
 
 WebUI.waitForPageLoad(2)
 
-'郵務管理'
-WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_management"))
+'郵務管理-登記'
+WebUI.click(findTestObject("Object Repository/register the package/btn_management"))
 
-WebUI.click(findTestObject('Object Repository/Case1/register the package/btn_register'))
+WebUI.click(findTestObject('Object Repository/register the package/btn_register'))
 
 '信件包裹類型'
-WebUI.click(findTestObject("Object Repository/Case1/register the package/checkbox_type"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_type"))
 
 '選擇B2F3住戶資訊'
-WebUI.click(findTestObject("Object Repository/Case1/register the package/checkbox_tablet"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_tablet"))
 
-WebUI.click(findTestObject("Object Repository/Case1/register the package/checkbox_building"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_building"))
 
-WebUI.click(findTestObject("Object Repository/Case1/register the package/checkbox_floor"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor"))
 
-WebUI.click(findTestObject("Object Repository/Case1/register the package/checkbox_B2F3"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_B2F3"))
 
 '收件人'
-WebUI.setText(findTestObject("Object Repository/Case1/register the package/input_addressee"), addressee)
+WebUI.setText(findTestObject("Object Repository/register the package/input_addressee"), addressee)
 
 '通知住戶'
-WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_notify"))
+WebUI.click(findTestObject("Object Repository/register the package/btn_notify"))
 
 '確認完成'
-WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_confirm"))
+WebUI.click(findTestObject("Object Repository/register the package/btn_confirm"))
 
 '登記成功截圖'
 WebUI.delay(3)
 WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
 
 '包裹登記結果'
-WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_result"))
+WebUI.click(findTestObject("Object Repository/register the package/btn_result"))
