@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(G_URL)
+
+'管理版登入'
+WebUI.setText(findTestObject('Object Repository/Case1/housekeeper login/input_account'), phone)
+
+WebUI.setText(findTestObject('Object Repository/Case1/housekeeper login/input_account'), pw)
+
+'登入'
+WebUI.click(findTestObject('Object Repository/Case1/housekeeper login/btn_login'))
+
+'登入社區'
+WebUI.click(findTestObject('Object Repository/Case1/housekeeper login/btn_community'))
+
