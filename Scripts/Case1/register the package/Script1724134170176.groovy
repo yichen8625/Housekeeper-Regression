@@ -48,5 +48,9 @@ WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_not
 '確認完成'
 WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_confirm"))
 
+'登記成功截圖'
+WebUI.delay(3)
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
+
 '包裹登記結果'
 WebUI.click(findTestObject("Object Repository/Case1/register the package/btn_result"))

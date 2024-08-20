@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>staging</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>staging</description>
+      <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

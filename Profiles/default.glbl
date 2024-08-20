@@ -4,9 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description>staging</description>
-      <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
-      <name>G_URL</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>
