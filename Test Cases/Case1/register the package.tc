@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>郵務管理>登記包裹</description>
+   <name>register the package</name>
+   <tag>package</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99b461e0-75ad-4f0f-acea-6d01934d9858</testCaseGuid>
+</TestCaseEntity>

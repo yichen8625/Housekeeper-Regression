@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>管理版登入</description>
+   <name>housekeeper login</name>
+   <tag>login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe5b819e-425f-416d-a46d-83d9ea8f1607</testCaseGuid>
+</TestCaseEntity>
