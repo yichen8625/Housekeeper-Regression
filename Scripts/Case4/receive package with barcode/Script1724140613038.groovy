@@ -27,14 +27,12 @@ WebUI.click(findTestObject('Object Repository/register the package/btn_managemen
 
 WebUI.click(findTestObject('Object Repository/receive the package/btn_receive'))
 
-WebUI.waitForPageLoad(2)
 
 '領取方式-手機條碼'
-WebUI.click(findTestObject('Object Repository/receive the package/type_barcode'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(5)
 
-WebUI.doubleClick(findTestObject('receive the package/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('receive the package/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/receive the package/type_barcode'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -33,21 +33,23 @@ WebUI.click(findTestObject("Object Repository/register the package/checkbox_type
 '選擇B2F3住戶資訊'
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_tablet"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_building"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (A)"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (2F)"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_B2F3"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_A1F2"))
+
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_address"))
 
 '收件人'
 WebUI.setText(findTestObject("Object Repository/register the package/input_addressee"), addressee)
 
 '通知住戶'
 WebUI.click(findTestObject("Object Repository/register the package/btn_notify"))
-
+/*
 '確認完成'
 WebUI.click(findTestObject("Object Repository/register the package/btn_confirm"))
-
+*/
 '登記成功截圖'
 WebUI.delay(3)
 WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
