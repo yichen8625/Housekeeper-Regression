@@ -39,7 +39,7 @@ WebUI.click(findTestObject("Object Repository/register the package/checkbox_floo
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_A1F2"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_address"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_address (Nc AutoTest)"), FailureHandling.CONTINUE_ON_FAILURE)
 
 '收件人'
 WebUI.setText(findTestObject("Object Repository/register the package/input_addressee"), addressee)

@@ -9,4 +9,14 @@
       <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
       <name>G_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>housekeeper Token</description>
+      <initValue>''</initValue>
+      <name>G_H_TOKEN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CommunityLogin Token</description>
+      <initValue>''</initValue>
+      <name>G_C_TOKEN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
