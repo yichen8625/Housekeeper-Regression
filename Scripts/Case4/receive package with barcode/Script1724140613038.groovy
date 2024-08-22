@@ -55,12 +55,12 @@ def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent()
 GlobalVariable.G_H_TOKEN = jsonResponse.Data.Token
 println("Houskeeper Token: ${GlobalVariable.G_H_TOKEN}")
 
-/*
+
 '取得 CommunityLogin token'
 def response = WS.sendRequest(findTestObject('Object Repository/receive the package/Postman/2. CommunityLogin'));
 GlobalVariable.G_C_TOKEN = jsonResponse.Token
 println("CommunityLogin Token: ${GlobalVariable.G_C_TOKEN}")
-*/
+
 
 /* 使用變數
 final ResponseObject response = WS.sendRequest(yourRequestTestObject);
