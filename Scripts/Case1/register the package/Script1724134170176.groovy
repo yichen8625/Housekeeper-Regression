@@ -56,3 +56,5 @@ WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekee
 
 '包裹登記結果'
 WebUI.click(findTestObject("Object Repository/register the package/btn_result"))
+
+WebUI.closeBrowser()

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.deleteAllCookies()
+
 WebUI.navigateToUrl(GlobalVariable.G_URL)
 
 '管理版登入'

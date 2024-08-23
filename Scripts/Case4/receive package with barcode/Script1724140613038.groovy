@@ -73,6 +73,7 @@ def requestObject_c_login = CommunityLogin
     }
     ''')
     .build()
+	
 // request to /api/Login/CommunityLogin
 def c_response = WS.sendRequest(requestObject_c_login)
 println(c_response.statusCode);
