@@ -3,7 +3,7 @@
    <description></description>
    <name>staging</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>staging</description>
       <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
@@ -17,6 +17,6 @@
    <GlobalVariableEntity>
       <description>CommunityLogin Token</description>
       <initValue>''</initValue>
-      <name>G_C_TOKEN</name>
+      <name>G_C_COOKIE</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

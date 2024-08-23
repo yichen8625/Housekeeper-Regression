@@ -28,6 +28,7 @@ import java.util.Random
 import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration
 
 '導航至管理版首頁'
 WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
@@ -53,13 +54,13 @@ def response = WS.sendRequest(findTestObject('Object Repository/receive the pack
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
 '管理版 user token 存入全域變數'
-GlobalVariable.G_H_TOKEN = jsonResponse.Data.Token
-println("Houskeeper Token: ${GlobalVariable.G_H_TOKEN}")
-
+U_Token = jsonResponse.Data.Token
+GlobalVariable.G_H_TOKEN = U_Token
+println("G_H_TOKEN: " + GlobalVariable.G_H_TOKEN)
 
 '取得 CommunityLogin token'
 def CommunityLogin = new RestRequestObjectBuilder()
-def requestObject = CommunityLogin
+def requestObject_c_login = CommunityLogin
     .withRestRequestMethod("POST")
     .withRestUrl("https://test.kingnetsmart.com.tw/mvc/api/Login/CommunityLogin")
     .withHttpHeaders([
@@ -67,13 +68,13 @@ def requestObject = CommunityLogin
     ])
     .withTextBodyContent('''
     {
-        "Token": "RKsNW+4+JJ9VBDJECuE9n4Bu9d3uijbtY7UC/pA7AIuhSuPBTaLiLZbb0m0yGCZTOrPj9iYyBG/yGslcUT3K9xW/cIyNYrkQIgB7BRdoN0kwx89wn+sYLmcRnJCfSxAX9hcHXC33kfNKZfyI2+qHRjo404nvwlJBS5X0J6jA4vAJa4oIjzbL62Ytnaq5jpqJn3unz4rPvIP+JsB+0zJ2NioF8N91WrrW3u2kkEOwOQQ=",
+        "Token": "${GlobalVariable.G_H_TOKEN}",
         "ComId": "17041002"
     }
     ''')
     .build()
-	
-def c_response = WS.sendRequest(requestObject)
+// request to /api/Login/CommunityLogin
+def c_response = WS.sendRequest(requestObject_c_login)
 println(c_response.statusCode);
 println(c_response.responseBodyContent);
 assert c_response.getStatusCode() == 200
@@ -83,15 +84,28 @@ if (cookies != null && cookies.size() > 0) {
     // 取第一段 cookie
     def cookie = cookies[0].split(';')[0] // 只取cookie名&值
     GlobalVariable.G_C_COOKIE = cookie
-    KeywordUtil.logInfo("CommunityLogin Token: " + GlobalVariable.G_C_COOKIE)
+    KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_C_COOKIE)
 } else {
     KeywordUtil.logInfo("No cookies found in the response.")
-}
+};
 
-// println("CommunityLogin Token: ${GlobalVariable.G_C_COOKIE}")
-	
-'Send a request'
-//def response = WS.sendRequest(requestObject)
+
+'checkUserCode'
+def checkUserCode = new RestRequestObjectBuilder()
+def requestObject_cc = checkUserCode
+	.withRestRequestMethod("POST")
+	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/checkUserCode")
+	.withHttpHeaders([
+		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_C_COOKIE}"),
+		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
+])
+	.withTextBodyContent('code=583RHBP23D145014')
+		.build()
+
+def UserCode = WS.sendRequest(requestObject_cc)
+println(UserCode.statusCode);
+println(UserCode.responseBodyContent);
+assert UserCode.getStatusCode() == 200;
 
 /* 使用變數
 final ResponseObject response = WS.sendRequest(yourRequestTestObject);
