@@ -27,6 +27,7 @@ import com.kms.katalon.core.testobject.RestRequestObjectBuilder
 import java.util.Random
 import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 '導航至管理版首頁'
 WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
@@ -57,10 +58,40 @@ println("Houskeeper Token: ${GlobalVariable.G_H_TOKEN}")
 
 
 '取得 CommunityLogin token'
-def response = WS.sendRequest(findTestObject('Object Repository/receive the package/Postman/2. CommunityLogin'));
-GlobalVariable.G_C_TOKEN = jsonResponse.Token
-println("CommunityLogin Token: ${GlobalVariable.G_C_TOKEN}")
+def CommunityLogin = new RestRequestObjectBuilder()
+def requestObject = CommunityLogin
+    .withRestRequestMethod("POST")
+    .withRestUrl("https://test.kingnetsmart.com.tw/mvc/api/Login/CommunityLogin")
+    .withHttpHeaders([
+        new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
+    ])
+    .withTextBodyContent('''
+    {
+        "Token": "RKsNW+4+JJ9VBDJECuE9n4Bu9d3uijbtY7UC/pA7AIuhSuPBTaLiLZbb0m0yGCZTOrPj9iYyBG/yGslcUT3K9xW/cIyNYrkQIgB7BRdoN0kwx89wn+sYLmcRnJCfSxAX9hcHXC33kfNKZfyI2+qHRjo404nvwlJBS5X0J6jA4vAJa4oIjzbL62Ytnaq5jpqJn3unz4rPvIP+JsB+0zJ2NioF8N91WrrW3u2kkEOwOQQ=",
+        "ComId": "17041002"
+    }
+    ''')
+    .build()
+	
+def c_response = WS.sendRequest(requestObject)
+println(c_response.statusCode);
+println(c_response.responseBodyContent);
+assert c_response.getStatusCode() == 200
 
+def cookies = c_response.getHeaderFields().get('Set-Cookie')
+if (cookies != null && cookies.size() > 0) {
+    // 取第一段 cookie
+    def cookie = cookies[0].split(';')[0] // 只取cookie名&值
+    GlobalVariable.G_C_COOKIE = cookie
+    KeywordUtil.logInfo("CommunityLogin Token: " + GlobalVariable.G_C_COOKIE)
+} else {
+    KeywordUtil.logInfo("No cookies found in the response.")
+}
+
+// println("CommunityLogin Token: ${GlobalVariable.G_C_COOKIE}")
+	
+'Send a request'
+//def response = WS.sendRequest(requestObject)
 
 /* 使用變數
 final ResponseObject response = WS.sendRequest(yourRequestTestObject);
