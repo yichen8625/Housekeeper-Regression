@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>棟別</description>
-   <name>checkbox_building</name>
+   <description>公告編輯</description>
+   <name>btn_edit</name>
    <tag></tag>
-   <elementGuidId>ddd3e09a-3d31-491c-9482-ac1669265c9b</elementGuidId>
+   <elementGuidId>06a13c5e-fb46-4ef6-a453-5b44fe2dd02d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.pointBorder option[value=B]</value>
+         <value>.el-table__body tr:nth-child(1) td:nth-child(10) a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

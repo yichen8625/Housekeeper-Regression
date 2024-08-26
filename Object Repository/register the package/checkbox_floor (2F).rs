@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description>樓層</description>
-   <name>checkbox_floor</name>
+   <name>checkbox_floor (2F)</name>
    <tag></tag>
    <elementGuidId>50be0d00-ce41-4e52-87f0-0d62194b28f3</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#selFloor_m option:nth-child(4)</value>
+         <value>#selFloor_m option:nth-child(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

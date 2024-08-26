@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>housekeeper Token</description>
-      <initValue>''</initValue>
+      <initValue>'${GlobalVariable.G_H_TOKEN}'</initValue>
       <name>G_H_TOKEN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>CommunityLogin Token</description>
-      <initValue>''</initValue>
+      <initValue>'${GlobalVariable.G_C_COOKIE}'</initValue>
       <name>G_C_COOKIE</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
