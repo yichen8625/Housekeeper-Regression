@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>用門禁卡感應快速領取包裹</description>
+   <name>receive package with barcode (express)</name>
+   <tag>receive package</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1de7587-cf57-4e4c-a80b-06fc3da30f34</testCaseGuid>
+</TestCaseEntity>

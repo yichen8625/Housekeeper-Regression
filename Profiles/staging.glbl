@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>staging</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>staging</description>
+      <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>housekeeper Token</description>
+      <initValue>'123'</initValue>
+      <name>G_H_TOKEN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CommunityLogin Token</description>
+      <initValue>'${GlobalVariable.G_C_COOKIE}'</initValue>
+      <name>G_C_COOKIE</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

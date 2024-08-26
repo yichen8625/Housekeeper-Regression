@@ -3,5 +3,10 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_H_TOKEN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
