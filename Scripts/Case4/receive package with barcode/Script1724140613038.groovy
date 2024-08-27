@@ -55,7 +55,10 @@ def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent()
 '管理版 user token 存入全域變數'
 U_Token = jsonResponse.Data.Token
 GlobalVariable.G_H_TOKEN = U_Token
+token_01 = U_Token
 println("G_H_TOKEN: " + GlobalVariable.G_H_TOKEN)
+println("token_01: " + token_01)
+
 
 '取得 CommunityLogin token'
 def CommunityLogin = new RestRequestObjectBuilder()
@@ -65,12 +68,7 @@ def requestObject_c_login = CommunityLogin
     .withHttpHeaders([
         new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
     ])
-    .withTextBodyContent('''
-    {
-        "Token": "${GlobalVariable.G_H_TOKEN}",
-        "ComId": "17041002"
-    }
-    ''')
+    .withTextBodyContent('{"Token":"'+token_01+'","ComId":"'+17041002+'"}')
     .build()
 	
 // request to /api/Login/CommunityLogin

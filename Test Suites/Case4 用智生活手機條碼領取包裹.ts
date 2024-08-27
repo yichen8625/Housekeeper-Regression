@@ -36,5 +36,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case4/receive package with barcode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f6cb99f7-3fe1-4724-94b5-8ca861b2849c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

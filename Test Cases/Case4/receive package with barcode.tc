@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>b5bf1df7-cbec-432b-8307-6065941d0b5f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6cb99f7-3fe1-4724-94b5-8ca861b2849c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6cb99f7-3fe1-4724-94b5-8ca861b2849c</id>
+      <masked>false</masked>
+      <name>token_01</name>
+   </variable>
 </TestCaseEntity>
