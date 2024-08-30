@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>用門禁卡感應快速領取包裹</description>
-   <name>receive package with barcode (express)</name>
-   <tag>receive package</tag>
+   <description>用智生活手機條碼領取寄放物品</description>
+   <name>receive things with barcode</name>
+   <tag>receive</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a1de7587-cf57-4e4c-a80b-06fc3da30f34</testCaseGuid>
+   <testCaseGuid>fa916efe-0cfe-46ba-be90-8f59ffc47a4f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5e531e62-e6f0-4729-aef3-b79fc5dc138d</variableId>
+      <variableId>f8baa03f-b421-4f93-ae3b-3c71acd7f76e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'583RHBP23D145014'</defaultValue>
       <description></description>
-      <id>5e531e62-e6f0-4729-aef3-b79fc5dc138d</id>
+      <id>f8baa03f-b421-4f93-ae3b-3c71acd7f76e</id>
       <masked>false</masked>
       <name>code</name>
    </variable>

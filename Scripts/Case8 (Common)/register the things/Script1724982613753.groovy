@@ -24,16 +24,22 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(2)
 
-'郵務管理-登記'
-WebUI.click(findTestObject("Object Repository/register the package/btn_management"))
+'寄放物品'
+WebUI.click(findTestObject("Object Repository/register things/btn_registerThings"))
 
-WebUI.click(findTestObject('Object Repository/register the package/btn_register'))
+WebUI.waitForPageLoad(3)
 
-'信件包裹類型'
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_type"))
+WebUI.click(findTestObject('receive the package/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
 
-'選擇B2F3住戶資訊'
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_tablet"))
+WebUI.click(findTestObject('Object Repository/register things/btn_register'))
+
+'寄放領取'
+//Step2. 選擇戶別
+WebUI.click(findTestObject("Object Repository/register things/btn_else"))
+
+WebUI.setText(findTestObject('Object Repository/register things/input_name'), name)
+
+WebUI.click(findTestObject("Object Repository/register things/btn_tablet"))
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (A)"))
 
@@ -41,23 +47,22 @@ WebUI.click(findTestObject("Object Repository/register the package/checkbox_floo
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_A1F2"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_address (Nc AutoTest)"), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject("Object Repository/register things/checkbox_selecter"))
 
-'收件人'
-// WebUI.setText(findTestObject("Object Repository/register the package/input_addressee"), addressee)
+WebUI.click(findTestObject("Object Repository/register things/btn_nextstep"))
 
-'通知住戶'
-WebUI.click(findTestObject("Object Repository/register the package/btn_notify"))
-/*
-'確認完成'
-WebUI.click(findTestObject("Object Repository/register the package/btn_confirm"))
-*/
+//Step3. 確認細項
+WebUI.click(findTestObject("Object Repository/register things/checkbox_type"))
+
+WebUI.click(findTestObject("Object Repository/register things/checkbox_content"))
+
+WebUI.click(findTestObject("Object Repository/register things/btn_send"))
+
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
-
-'包裹登記結果'
-WebUI.click(findTestObject("Object Repository/register the package/btn_result"))
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register things.png')
 
 WebUI.closeBrowser()
+
+

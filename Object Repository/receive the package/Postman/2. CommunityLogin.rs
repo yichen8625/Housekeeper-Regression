@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;Token\&quot;: \&quot;${G_H_TOKEN}\&quot;,\n  \&quot;ComId\&quot;: \&quot;17041002\&quot;,\n}&quot;,
+  &quot;text&quot;: &quot;{\&quot;Token\&quot;:\&quot;\u0027+GlobalVariable.G_H_TOKEN+\u0027\&quot;,\&quot;ComId\&quot;:\&quot;\u0027+17041002+\u0027\&quot;}&quot;,
   &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

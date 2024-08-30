@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
-   <description>智生活手機條碼領取包裹</description>
-   <name>Case4 用智生活手機條碼領取包裹</name>
+   <description>用門禁卡感應領取寄放物品</description>
+   <name>Case10 用門禁卡感應領取寄放物品</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Case1 登記A1F2通知包裹</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Case8 管理員完成寄放物品登記</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Action element/Case4 用智生活手機條碼領取包裹</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Action element/Case10 用門禁卡感應領取寄放物品</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

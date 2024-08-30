@@ -30,29 +30,33 @@ import groovy.json.JsonSlurper
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
 
+WebUI.openBrowser('')
+
+WebUI.deleteAllCookies()
+
+WebUI.navigateToUrl(GlobalVariable.G_URL)
+
 '取得管理版 user token'
 def response = WS.sendRequest(findTestObject('Object Repository/receive the package/Postman/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
+
 '管理版 user token 存入全域變數'
 U_Token = jsonResponse.Data.Token
-def G_H_TOKEN = U_Token
-println("G_H_TOKEN: " + G_H_TOKEN)
+GlobalVariable.G_H_TOKEN = U_Token
+println("G_H_TOKEN: " + GlobalVariable.G_H_TOKEN)
+
 
 '取得 CommunityLogin token'
 def CommunityLogin = new RestRequestObjectBuilder()
 def requestObject_c_login = CommunityLogin
-	.withRestRequestMethod("POST")
-	.withRestUrl("https://test.kingnetsmart.com.tw/mvc/api/Login/CommunityLogin")
-	.withHttpHeaders([
-		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
-	])
-	.withTextBodyContent('''{
-        "Token": "G_H_TOKEN",
-        "ComId": "17041002"
-    }''')
-
-	.build()
+    .withRestRequestMethod("POST")
+    .withRestUrl("https://test.kingnetsmart.com.tw/mvc/api/Login/CommunityLogin")
+    .withHttpHeaders([
+        new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
+    ])
+    .withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+17041002+'"}')
+    .build()
 	
 // request to /api/Login/CommunityLogin
 def c_response = WS.sendRequest(requestObject_c_login)
@@ -62,12 +66,12 @@ assert c_response.getStatusCode() == 200
 
 def cookies = c_response.getHeaderFields().get('Set-Cookie')
 if (cookies != null && cookies.size() > 0) {
-	// 取第一段 cookie
-	def cookie = cookies[0].split(';')[0] // 只取cookie名&值
-	GlobalVariable.G_C_COOKIE = cookie
-	KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_C_COOKIE)
+    // 取第一段 cookie
+    def cookie = cookies[0].split(';')[0] // 只取cookie名&值
+    GlobalVariable.G_C_COOKIE = cookie
+    KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_C_COOKIE)
 } else {
-	KeywordUtil.logInfo("No cookies found in the response.")
+    KeywordUtil.logInfo("No cookies found in the response.")
 };
 
 
@@ -87,3 +91,23 @@ def UserCode = WS.sendRequest(requestObject_cc)
 println(UserCode.statusCode);
 println(UserCode.responseBodyContent);
 assert UserCode.getStatusCode() == 200;
+
+
+'getPostalList'
+def getPostalList = new RestRequestObjectBuilder()
+def PostalList = getPostalList
+	.withRestRequestMethod("POST")
+	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/getPostalList")
+	.withHttpHeaders([
+		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_C_COOKIE}"),
+		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
+])
+	.withTextBodyContent("jsonStr=[{\"condition\":\"[{\\\"name\\\":\\\"a\\\",\\\"val\\\":\\\"2\\\"},{\\\"name\\\":\\\"b\\\",\\\"val\\\":\\\"1704100010\\\"}]\"}]")
+
+	//.withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+17041002+'"}')	
+	.build()
+
+def List = WS.sendRequest(PostalList)
+println(List.statusCode);
+println(List.responseBodyContent);
+assert List.getStatusCode() == 200;

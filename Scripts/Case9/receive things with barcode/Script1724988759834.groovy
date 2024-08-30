@@ -14,7 +14,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testobject.RestRequestObjectBuilder
@@ -29,6 +28,10 @@ import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
+import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonOutput
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 '導航至管理版首頁'
 WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
@@ -37,37 +40,40 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(2)
 
-'編輯公告'
-WebUI.click(findTestObject('Object Repository/announcement/btn_announcement'))
+'領取物品'
+WebUI.click(findTestObject("Object Repository/register things/btn_registerThings"))
 
-WebUI.delay(2)
+WebUI.waitForPageLoad(3)
 
-WebUI.click(findTestObject('Object Repository/announcement/btn_edit'))
+WebUI.click(findTestObject('receive the package/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
 
-'快速領取btn'
-WebUI.click(findTestObject('Object Repository/announcement/btn_quick_receive'))
+WebUI.click(findTestObject("Object Repository/receive things/btn_receive"))
 
-'領取方式-手機條碼'
-WebUI.waitForPageLoad(5)
+'寄放領取'
+//Step2. 選擇戶別
+WebUI.click(findTestObject("Object Repository/receive things/type_barcode"))
 
-WebUI.click(findTestObject('Object Repository/announcement/type_barcode'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/receive things/input_token'), code)
 
-WebUI.setText(findTestObject('Object Repository/receive the package/input_quick_token'), code)
+WebUI.sendKeys(findTestObject('Object Repository/receive things/input_token'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/receive the package/input_quick_token'), Keys.chord(Keys.ENTER))
+'選取包裹'
+//Step3. 確認細項
+WebUI.scrollToElement(findTestObject('Object Repository/receive things/title_list'), 3)
 
-WebUI.click(findTestObject('Object Repository/receive the package/btn_quick_confirm'))
+WebUI.click(findTestObject("Object Repository/receive things/checkbox_first"))
 
-'快速領取'
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/receive the package/checkbox_quick_all'))
+// WebUI.click(findTestObject("null"))
 
-WebUI.click(findTestObject('Object Repository/receive the package/checkbox_quick_first'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/receive things/btn_send'),30) 
 
-WebUI.click(findTestObject('Object Repository/receive the package/btn_quick_end'))
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\barcode receive_quick.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\barcode receive things.png')
 
 WebUI.closeBrowser()
+

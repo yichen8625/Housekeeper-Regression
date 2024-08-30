@@ -10,13 +10,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f6cb99f7-3fe1-4724-94b5-8ca861b2849c</variableId>
+      <variableId>ef40be38-27c0-4019-ad88-7703494c7bc9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'583RHBP23D145014'</defaultValue>
       <description></description>
-      <id>f6cb99f7-3fe1-4724-94b5-8ca861b2849c</id>
+      <id>ef40be38-27c0-4019-ad88-7703494c7bc9</id>
       <masked>false</masked>
-      <name>token_01</name>
+      <name>code</name>
    </variable>
 </TestCaseEntity>

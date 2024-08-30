@@ -39,6 +39,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description>housekeeperToken</description>
+      <id>99726ac2-d5b6-403c-8070-c62a1a78534b</id>
+      <masked>false</masked>
+      <name>Token</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -61,13 +68,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-'取得管理版 user token'
-def response = WS.sendRequest(findTestObject('Object Repository/receive the package/Postman/1. Get Token'));
-def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
-'管理版 user token 存入全域變數'
-U_Token = jsonResponse.Data.Token
-GlobalVariable.G_H_TOKEN = U_Token
-println(&quot;G_H_TOKEN: &quot; + GlobalVariable.G_H_TOKEN)</verificationScript>
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

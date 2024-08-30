@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Case1 登記A1F2通知包裹</name>
+   <name>Case6 用智生活手機條碼快速領取包裹</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4aaa0bf2-75c7-4eaf-b211-5ccde3efebc2</testSuiteGuid>
+   <testSuiteGuid>39ce5c05-a5b8-4341-a89e-f3ce63b1cd00</testSuiteGuid>
    <testCaseLink>
-      <guid>7ede0a1d-883f-4e28-9251-b6ef51b9469b</guid>
+      <guid>865f3685-1b45-4d13-8ecd-47059d9ddc44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case1 (Common)/housekeeper login</testCaseId>
@@ -31,16 +31,16 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c64e48a5-b55f-4cf3-b896-b918f27ec42f</guid>
+      <guid>bf6ea6d8-1a72-435c-9c70-02d977c5fe39</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case1 (Common)/register the package</testCaseId>
+      <testCaseId>Test Cases/Case6/receive package with barcode (express)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2085bb56-1a59-4600-8ea2-8fa2098e0a27</variableId>
+         <variableId>5e531e62-e6f0-4729-aef3-b79fc5dc138d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

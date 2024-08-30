@@ -6,11 +6,12 @@
    <UUID>72b0749f-1081-4445-acf8-d653dc03e803</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.5.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\noahc\Katalon Studio\Sprint3-housekeeper (Noah) 2.0\Katalon-AutoTest-MGMT.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
