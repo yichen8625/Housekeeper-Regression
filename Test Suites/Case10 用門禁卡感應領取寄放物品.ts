@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Case8 管理員完成寄放物品登記</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Case08 管理員完成寄放物品登記</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
