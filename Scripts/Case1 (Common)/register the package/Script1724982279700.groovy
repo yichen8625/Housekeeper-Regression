@@ -55,7 +55,7 @@ WebUI.click(findTestObject("Object Repository/register the package/btn_confirm")
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register packages.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\包裹登記.png')
 
 '包裹登記結果'
 WebUI.click(findTestObject("Object Repository/register the package/btn_result"))

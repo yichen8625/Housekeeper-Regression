@@ -61,7 +61,7 @@ WebUI.click(findTestObject("Object Repository/register things/btn_send"))
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register things.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\寄放物品登記.png')
 
 WebUI.closeBrowser()
 
