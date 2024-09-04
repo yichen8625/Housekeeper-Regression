@@ -73,7 +73,7 @@ WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\barcode receive things.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\手機條碼領取寄物.png')
 
 WebUI.closeBrowser()
 
