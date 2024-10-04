@@ -35,11 +35,11 @@ WebUI.click(findTestObject("Object Repository/register the package/checkbox_type
 '選擇B2F3住戶資訊'
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_tablet"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (A)"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (太陽)"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (2F)"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (1樓)"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_A1F2"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_太陽1樓-1"))
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_address (Nc AutoTest)"), FailureHandling.CONTINUE_ON_FAILURE)
 

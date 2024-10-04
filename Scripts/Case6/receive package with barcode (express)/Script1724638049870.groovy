@@ -68,6 +68,6 @@ WebUI.click(findTestObject('Object Repository/receive the package/btn_quick_end'
 
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\(快速領取)手機條碼領取包裹.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\ScreenShoot\\(快速領取)手機條碼領取包裹.png')
 
 WebUI.closeBrowser()

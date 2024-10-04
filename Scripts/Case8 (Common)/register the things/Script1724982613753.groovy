@@ -41,11 +41,11 @@ WebUI.setText(findTestObject('Object Repository/register things/input_name'), na
 
 WebUI.click(findTestObject("Object Repository/register things/btn_tablet"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (A)"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (太陽)"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (2F)"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (1樓)"))
 
-WebUI.click(findTestObject("Object Repository/register the package/checkbox_A1F2"))
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_太陽1樓-1"))
 
 WebUI.click(findTestObject("Object Repository/register things/checkbox_selecter"))
 
@@ -61,7 +61,7 @@ WebUI.click(findTestObject("Object Repository/register things/btn_send"))
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\寄放物品登記.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\ScreenShoot\\寄放物品登記.png')
 
 WebUI.closeBrowser()
 

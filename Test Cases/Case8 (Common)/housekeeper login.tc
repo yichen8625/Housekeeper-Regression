@@ -19,14 +19,14 @@
       <variableId>a54bb7f4-bd75-458b-a5c1-5952ebcb32ff</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'0905501851'</defaultValue>
+      <defaultValue>'0944135790 '</defaultValue>
       <description>account</description>
       <id>a88cf31a-1329-4813-b165-26646af2a4a9</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
-      <defaultValue>'XL2bDpHhLE8='</defaultValue>
+      <defaultValue>'5WbaaGOlRjI='</defaultValue>
       <description>password</description>
       <id>a54bb7f4-bd75-458b-a5c1-5952ebcb32ff</id>
       <masked>false</masked>

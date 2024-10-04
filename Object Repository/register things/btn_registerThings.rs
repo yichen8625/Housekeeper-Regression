@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mainList div div:nth-child(6)</value>
+         <value>#mainList div div:nth-child(7)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

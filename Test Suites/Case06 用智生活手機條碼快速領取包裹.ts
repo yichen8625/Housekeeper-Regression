@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Case01 登記A1F2通知包裹</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Case01 登記水星2樓-1通知包裹</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
