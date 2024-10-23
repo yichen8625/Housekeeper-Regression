@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>戶別</description>
-   <name>checkbox_A1F2</name>
+   <description>樓層</description>
+   <name>checkbox_floor (1樓)</name>
    <tag></tag>
-   <elementGuidId>a7f55f1c-1dfe-42e4-ade4-3147e5739c95</elementGuidId>
+   <elementGuidId>50be0d00-ce41-4e52-87f0-0d62194b28f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#selTablet_m option:nth-child(2)</value>
+         <value>#selFloor_m option:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

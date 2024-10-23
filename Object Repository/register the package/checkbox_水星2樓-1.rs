@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>樓層</description>
-   <name>checkbox_floor (2F)</name>
+   <description></description>
+   <name>checkbox_水星2樓-1</name>
    <tag></tag>
-   <elementGuidId>50be0d00-ce41-4e52-87f0-0d62194b28f3</elementGuidId>
+   <elementGuidId>b39c8065-f1a3-4419-ac3b-0bafcc18f11a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#selFloor_m option:nth-child(3)</value>
+         <value>#selTablet_m option:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

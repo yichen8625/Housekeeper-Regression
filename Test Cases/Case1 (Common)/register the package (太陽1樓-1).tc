@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>郵務管理>登記包裹</description>
-   <name>register the package</name>
+   <name>register the package (太陽1樓-1)</name>
    <tag>package</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

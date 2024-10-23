@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Case01 登記A1F2通知包裹</name>
+   <name>Case01 登記太陽1樓-1通知包裹</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -34,7 +34,7 @@
       <guid>c64e48a5-b55f-4cf3-b896-b918f27ec42f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case1 (Common)/register the package</testCaseId>
+      <testCaseId>Test Cases/Case1 (Common)/register the package (太陽1樓-1)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

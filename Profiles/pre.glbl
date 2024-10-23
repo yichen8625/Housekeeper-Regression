@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>pre</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>login</description>
+      <initValue>'https://www-pre.kingnetsmart.com.tw/mgmt/login'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>after login</description>
+      <initValue>'https://www-pre.kingnetsmart.com.tw/community/main.aspx'</initValue>
+      <name>G_community</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
