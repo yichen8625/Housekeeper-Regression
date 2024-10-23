@@ -33,4 +33,3 @@ WebUI.click(findTestObject('Object Repository/housekeeper login/btn_login'))
 
 '登入社區'
 WebUI.click(findTestObject('Object Repository/housekeeper login/btn_community'))
-

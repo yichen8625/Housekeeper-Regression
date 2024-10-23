@@ -31,7 +31,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
 
 '導航至管理版首頁'
-WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
@@ -68,6 +68,6 @@ WebUI.click(findTestObject('Object Repository/receive the package/btn_quick_end'
 
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\ScreenShoot\\(快速領取)手機條碼領取包裹.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\(快速領取)手機條碼領取包裹.png')
 
 WebUI.closeBrowser()

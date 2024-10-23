@@ -32,7 +32,7 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonOutput
 
 '導航至管理版首頁'
-WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
@@ -42,7 +42,6 @@ WebUI.waitForPageLoad(2)
 WebUI.click(findTestObject('Object Repository/register the package/btn_management'))
 
 WebUI.click(findTestObject('Object Repository/receive the package/btn_receive'))
-
 
 '領取方式-手機條碼'
 
@@ -107,8 +106,8 @@ def cookies = c_response.getHeaderFields().get('Set-Cookie')
 if (cookies != null && cookies.size() > 0) {
     // 取第一段 cookie
     def cookie = cookies[0].split(';')[0] // 只取cookie名&值
-    GlobalVariable.G_C_COOKIE = cookie
-    KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_C_COOKIE)
+    GlobalVariable.G_community = cookie
+    KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_community)
 } else {
     KeywordUtil.logInfo("No cookies found in the response.")
 };
@@ -120,7 +119,7 @@ def requestObject_cc = checkUserCode
 	.withRestRequestMethod("POST")
 	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/checkUserCode")
 	.withHttpHeaders([
-		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_C_COOKIE}"),
+		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_community}"),
 		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
 ])
 	.withTextBodyContent('code=583RHBP23D145014')
@@ -138,7 +137,7 @@ def PostalList = getPostalList
 	.withRestRequestMethod("POST")
 	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/getPostalList")
 	.withHttpHeaders([
-		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_C_COOKIE}"),
+		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_community}"),
 		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
 ])
 	.withTextBodyContent("jsonStr=[{\"condition\":\"[{\\\"name\\\":\\\"a\\\",\\\"val\\\":\\\"2\\\"},{\\\"name\\\":\\\"b\\\",\\\"val\\\":\\\"1704100010\\\"}]\"}]")

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 '導航至管理版首頁'
-WebUI.navigateToUrl("https://test.kingnetsmart.com.tw/community/main.aspx")
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
@@ -61,7 +61,7 @@ WebUI.click(findTestObject("Object Repository/register things/btn_send"))
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\ScreenShoot\\寄放物品登記.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\寄放物品登記.png')
 
 WebUI.closeBrowser()
 

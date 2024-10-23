@@ -34,7 +34,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
 '導航至管理版首頁'
-WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
@@ -72,7 +72,7 @@ WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\ScreenShoot\\門禁卡領取寄物.png')
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\門禁卡領取寄物.png')
 
 WebUI.closeBrowser()
 

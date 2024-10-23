@@ -3,20 +3,15 @@
    <description></description>
    <name>staging</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>staging</description>
+      <description>login</description>
       <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
       <name>G_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>housekeeper Token</description>
-      <initValue>''</initValue>
-      <name>G_H_TOKEN</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>CommunityLogin Token</description>
-      <initValue>''</initValue>
-      <name>G_C_COOKIE</name>
+      <description>after login</description>
+      <initValue>'https://test.kingnetsmart.com.tw/community/main.aspx'</initValue>
+      <name>G_community</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
