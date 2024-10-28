@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>collection_payment</name>
+   <tag></tag>
+   <elementGuidId>7b31580e-68f6-4328-b99d-e6c59c66b15f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.thumbnail > i.glyphicon.icon-collectionP</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainList']/div/div[6]/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>23c5fc76-62fc-416a-a778-b5273c0c90f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumbnail</value>
+      <webElementGuid>4dd5e87f-2b19-4e44-8807-f3badc92b223</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>寄放物品</value>
+      <webElementGuid>1a8ba69d-34a1-48e5-814d-6abb9db270b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainList&quot;)/div[@class=&quot;row text-center style-B&quot;]/div[@class=&quot;col-md-3 col-sm-6&quot;]/a[1]/div[@class=&quot;thumbnail&quot;]</value>
+      <webElementGuid>5fa8d8f8-001b-4fcd-859b-3828453fdc19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainList']/div/div[6]/a/div</value>
+      <webElementGuid>934d49c0-c20e-4c8b-ae95-d235bed7b213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='公設預約'])[1]/following::div[2]</value>
+      <webElementGuid>8b7c2103-42ed-47ba-a377-079a39f99526</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='推播通知'])[1]/following::div[5]</value>
+      <webElementGuid>95d7cfec-35c3-4545-88af-f19296dbdea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='巡邏管理'])[1]/preceding::div[2]</value>
+      <webElementGuid>06f2ccb2-d6c4-4d05-8498-a1fd39041fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/a/div</value>
+      <webElementGuid>7ac19a09-b144-4e9f-aa59-44a5e57c9205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '寄放物品' or . = '寄放物品')]</value>
+      <webElementGuid>727c0467-acfa-4d15-bf11-d167d84cb194</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

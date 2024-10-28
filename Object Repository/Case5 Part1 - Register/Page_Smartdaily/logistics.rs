@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logistics</name>
+   <tag></tag>
+   <elementGuidId>86a74a22-1fc3-4f5b-aebb-745f6e281d1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mainList&quot;]/div[1]/div[1]/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#postalRows .icon.icon-truck</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bcf36912-f09e-44fe-8264-5f6191c8c78b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumbnail</value>
+      <webElementGuid>5c13862d-1b51-4b64-9d55-1f839de78949</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>郵務管理</value>
+      <webElementGuid>60146e49-aa48-4567-af1d-d6df8d1ec729</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainList&quot;)/div[@class=&quot;row text-center style-B&quot;]/div[@class=&quot;col-md-3 col-sm-6&quot;]/a[1]/div[@class=&quot;thumbnail&quot;]</value>
+      <webElementGuid>598dca6d-2bda-44ae-89a0-22ec9e6589ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainList']/div/div/a/div</value>
+      <webElementGuid>13ce90a6-46ce-451e-8e1e-451328fdb9ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome!'])[1]/following::div[4]</value>
+      <webElementGuid>20c05eab-a123-4140-b8d7-cefcfdc126fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='免費社區活動登記中🔥歡迎總幹事踴躍報名！'])[1]/following::div[7]</value>
+      <webElementGuid>b6503756-13f6-4d71-a9b8-06e904d1341c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訪客管理'])[2]/preceding::div[2]</value>
+      <webElementGuid>391dec33-1755-4d25-9d8e-bc08c6f7a7a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/a/div</value>
+      <webElementGuid>29a75ea4-be68-4263-b3b8-b13b1cdfe0c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '郵務管理' or . = '郵務管理')]</value>
+      <webElementGuid>4e16baeb-3419-4c66-856b-e6ff4829e8c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

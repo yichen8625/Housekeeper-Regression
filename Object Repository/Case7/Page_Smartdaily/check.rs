@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check</name>
+   <tag></tag>
+   <elementGuidId>46ff2c22-3515-4c5a-beff-541abc74e6b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.el-message-box .el-button.el-button--default.el-button--small.el-button--primary </value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='communityDiv']/div/div[2]/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>48e5ba7b-e98f-45ce-8145-a55093c37105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>communityItem optionBtn</value>
+      <webElementGuid>b982159b-55b4-4b31-87e2-ebaa58dbad09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    內部測試區(高雄)
+                  </value>
+      <webElementGuid>cf7911ca-3145-4ef6-a16d-9599efd2aeee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;communityDiv&quot;)/div[@class=&quot;communityDivWrap&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;main-pane&quot;]/div[@class=&quot;communityWrap&quot;]/div[@class=&quot;communitySelect&quot;]/div[@class=&quot;communityItem optionBtn&quot;]</value>
+      <webElementGuid>5bb1aa16-eedb-4980-a010-c4b02001ee38</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='communityDiv']/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>90386b53-32ee-4bc3-bd20-38eef0db5bad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請選擇您要登入社區'])[1]/following::div[3]</value>
+      <webElementGuid>baf7d716-c2e3-4b5d-9fb5-f3173012a597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='使用教學'])[2]/following::div[16]</value>
+      <webElementGuid>b6cf0ac4-4e69-4d8e-8626-dba71e40946f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/preceding::div[1]</value>
+      <webElementGuid>8b182688-3046-4c95-b258-844d1726ac48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='立即加入社群'])[1]/preceding::div[2]</value>
+      <webElementGuid>577526ad-389c-4c88-8f01-f56086cc0a1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='內部測試區(高雄)']/parent::*</value>
+      <webElementGuid>9fa98dcc-8758-462b-96fe-a89c3d0559e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>72f90599-3a8e-443a-ad9f-4b1e0c845e01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                    內部測試區(高雄)
+                  ' or . = '
+                    內部測試區(高雄)
+                  ')]</value>
+      <webElementGuid>17bd7e74-edfa-434e-8b52-d7b5ca81f54f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

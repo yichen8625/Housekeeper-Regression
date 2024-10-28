@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>next_step</name>
+   <tag></tag>
+   <elementGuidId>dbe50006-b5b6-4799-97e5-61db4291fa0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[48]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#postalType_div .btn.btn-lg.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4c364041-642a-42e4-b269-6e14ed739bce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1ddda2f0-08aa-4a31-a0dc-6fc085b79e29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-md btn-default cancelBtn</value>
+      <webElementGuid>27f4b89b-45e0-4e34-91ac-ba53c20deda6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return fo._dialogClose('bindCard_div')</value>
+      <webElementGuid>9f31c73c-4e2d-453e-b25d-373262db2c2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>取消</value>
+      <webElementGuid>7f50f2f6-92f3-4d13-99af-9fbd31c2f576</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bindCard_div&quot;)/button[@class=&quot;btn btn-md btn-default cancelBtn&quot;]</value>
+      <webElementGuid>2244bb83-a99e-4869-a3e9-9edfaab3c7f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[48]</value>
+      <webElementGuid>ac81018f-cc55-49cb-a6bb-0c3132580d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bindCard_div']/button[2]</value>
+      <webElementGuid>a03c9ac2-7988-4b4f-a241-78e021d2fae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請感應門禁卡...'])[2]/following::button[1]</value>
+      <webElementGuid>74f4c406-cd38-430c-9952-fe2c53fc4ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='確定'])[3]/following::button[2]</value>
+      <webElementGuid>5df8c7ba-3b91-40de-977e-f47f26483202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='告警管理'])[1]/preceding::button[2]</value>
+      <webElementGuid>9058ccb3-7076-4500-a743-595e0dbb0761</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='隱藏'])[1]/preceding::button[2]</value>
+      <webElementGuid>1be6c153-9a1b-4096-8c4d-68477065d229</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[43]/button[2]</value>
+      <webElementGuid>9eb6a0ba-e83b-4915-878a-8bbf0b55932d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '取消' or . = '取消')]</value>
+      <webElementGuid>81bc95a3-7747-4d99-857e-3a815c7bd70b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

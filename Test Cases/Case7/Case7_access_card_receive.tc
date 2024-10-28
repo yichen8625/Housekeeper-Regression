@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Case7_access_card_receive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e12b8381-a3b4-4025-8266-030d2fc851a5</testCaseGuid>
+</TestCaseEntity>

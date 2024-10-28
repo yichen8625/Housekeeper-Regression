@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IsSignature</name>
+   <tag></tag>
+   <elementGuidId>00c1ba3c-d8a9-4a9e-8963-437e10d1a14a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[6]/span/span/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oc > span:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0ccd2c76-f7a7-4edb-8414-cbab28231edd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>領取</value>
+      <webElementGuid>b54d5e5d-e77e-44f2-ba91-e12c643739c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[6]/span[1]/span[@class=&quot;el-popover__reference-wrapper&quot;]/div[@class=&quot;fab-button focusing&quot;]/div[@class=&quot;oc&quot;]/span[2]</value>
+      <webElementGuid>7e1b6aa4-7590-4227-b2c3-ce675bf71435</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[6]/span/span/div/div/span[2]</value>
+      <webElementGuid>96878936-3267-4ab3-88b6-1e8a64400037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='快速'])[1]/following::span[1]</value>
+      <webElementGuid>bccdaa00-8c56-4dcb-8a17-3e99aa855ba3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='戶別：'])[1]/following::span[4]</value>
+      <webElementGuid>b50053c8-6291-45ce-822c-4f2f48764185</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請選擇驗證方式'])[1]/preceding::span[1]</value>
+      <webElementGuid>917aa363-43d3-4fe0-aaff-45387b0aa326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='確定領取'])[1]/preceding::span[4]</value>
+      <webElementGuid>2afd4423-d312-410b-9fa1-8e6fc15cf5cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/span[2]</value>
+      <webElementGuid>7555b5d4-52a6-4d3c-811d-0f7eade590c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '領取' or . = '領取')]</value>
+      <webElementGuid>23761f22-e28f-4ef1-94a7-b455c5807685</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

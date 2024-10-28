@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>announcement</name>
+   <tag></tag>
+   <elementGuidId>292170cc-4629-47bb-a0b5-54fac2b719e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.thumbnail > i.glyphicon.icon-ann</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainList']/div/div[8]/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d4be51c4-d7d8-4f0b-8815-9fd77910659d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumbnail</value>
+      <webElementGuid>a8a33a0e-e130-4a38-8739-8d636b5f46b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>社區公告</value>
+      <webElementGuid>b68cc335-833f-4d87-8411-252c4551ea55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainList&quot;)/div[@class=&quot;row text-center style-B&quot;]/div[@class=&quot;col-md-3 col-sm-6&quot;]/a[1]/div[@class=&quot;thumbnail&quot;]</value>
+      <webElementGuid>346f4bf4-245e-445d-9cd5-31a549ed2c9a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainList']/div/div[8]/a/div</value>
+      <webElementGuid>216454ce-61a3-4ef3-be8e-aeb2b24ac297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='巡邏管理'])[1]/following::div[2]</value>
+      <webElementGuid>57a4462d-5eb5-43b6-9492-bf61891b19ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='寄放物品'])[2]/following::div[5]</value>
+      <webElementGuid>b89ff825-c4dc-48bb-b3a4-ef81e1598408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='下一頁'])[1]/preceding::div[2]</value>
+      <webElementGuid>8ec74373-17e6-4125-9246-c2c78a19985a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/a/div</value>
+      <webElementGuid>fa15c90f-c888-4dfa-ac20-c38386ed0d29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '社區公告' or . = '社區公告')]</value>
+      <webElementGuid>e90f392a-c3a4-4a38-8839-21a8579fcc2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>postal_type</name>
+   <tag></tag>
+   <elementGuidId>4f77410f-d282-4fa7-838f-c2f110802c42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='postalRows']/tr/td[3]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.postalService select.form-control.type-select.oops</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>80b212ce-9d75-4153-95ff-f920ce1a2927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control type-select oops</value>
+      <webElementGuid>ddd7b322-d7dc-49e1-95db-687311bd5a0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>請選擇包裹蔥油餅一般掛號信用卡法院稅單公家機關行政文書罰單寄放限時租金快捷其它</value>
+      <webElementGuid>8f7403ed-7bc8-4cf2-823e-1c8b0c3e1fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;postalRows&quot;)/tr[1]/td[3]/select[@class=&quot;form-control type-select oops&quot;]</value>
+      <webElementGuid>d17fbb04-4119-4d2b-88d4-19d744ba4339</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='postalRows']/tr/td[3]/select</value>
+      <webElementGuid>f816083d-5ad3-4af7-a2a1-82858ee8920d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='點選【點此輸入】登記包裹條碼'])[1]/following::select[1]</value>
+      <webElementGuid>61bbe1a6-24fc-40bf-a019-452b90fa3740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='提示_'])[1]/following::select[1]</value>
+      <webElementGuid>c0449354-8412-4a63-9759-dd6359b9df3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='冷藏'])[1]/preceding::select[1]</value>
+      <webElementGuid>2789531c-0ea4-4e3f-b447-7b0f44dc61db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='冷凍'])[1]/preceding::select[1]</value>
+      <webElementGuid>15d890ea-6b29-48a9-b334-bcb6e8bb8651</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>31f0d687-39fa-49dd-96ad-73f659664006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = '請選擇包裹蔥油餅一般掛號信用卡法院稅單公家機關行政文書罰單寄放限時租金快捷其它' or . = '請選擇包裹蔥油餅一般掛號信用卡法院稅單公家機關行政文書罰單寄放限時租金快捷其它')]</value>
+      <webElementGuid>f5ac2dd4-9325-4e04-8ba0-bcc04a7274ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

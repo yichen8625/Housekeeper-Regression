@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Case12_access_card_FastReceive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac17d942-1b2d-4f97-9317-9531e5704f53</testCaseGuid>
+</TestCaseEntity>

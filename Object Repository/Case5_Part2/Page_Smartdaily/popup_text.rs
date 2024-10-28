@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_text</name>
+   <tag></tag>
+   <elementGuidId>8bff7ee0-f848-4349-ac77-c33555cb20b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#masterCarrierDiv .tips_txt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainList']/div/div/a/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e6aa66d4-8092-4db9-b123-5784ac48475a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon icon-package</value>
+      <webElementGuid>e18f1d22-2d32-42d4-ab38-d5ccd2e9765f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainList&quot;)/div[@class=&quot;row text-center style-B&quot;]/div[@class=&quot;col-md-3 col-sm-6&quot;]/a[1]/div[@class=&quot;thumbnail&quot;]/i[@class=&quot;glyphicon icon-package&quot;]</value>
+      <webElementGuid>b1ee4654-3398-4445-8525-ea351c1726c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainList']/div/div/a/div/i</value>
+      <webElementGuid>c75a254a-233a-4598-9485-7301e9c655a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/i</value>
+      <webElementGuid>732f23f5-deb0-4f1a-a126-a309f7415b3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

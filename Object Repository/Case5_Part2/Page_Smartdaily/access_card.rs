@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>access_card</name>
+   <tag></tag>
+   <elementGuidId>e5c781aa-1931-4f55-a68c-b60e79e3b37c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#wizardContent1 .col-md-4.col-sm-6:nth-of-type(2) .thumbnail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='postal-content']/div/div/a/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>26a6a570-2e25-4bc5-84a7-c199065b8e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon icon-p-des</value>
+      <webElementGuid>0db98b1a-451a-4676-b452-da20aabe6207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;postal-content&quot;)/div[@class=&quot;row text-center&quot;]/div[@class=&quot;col-md-3 col-sm-6&quot;]/a[1]/div[@class=&quot;thumbnail&quot;]/i[@class=&quot;glyphicon icon-p-des&quot;]</value>
+      <webElementGuid>9c066ebb-1359-4cb8-88b2-9734af9fd4e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='postal-content']/div/div/a/div/i</value>
+      <webElementGuid>4b1ed32f-ac73-4a5e-afbd-1bd2445e03ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/i</value>
+      <webElementGuid>7aa3d444-1d96-4b06-82ce-cf0b64536c0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

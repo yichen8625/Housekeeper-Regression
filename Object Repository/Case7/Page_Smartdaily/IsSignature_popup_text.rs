@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IsSignature_popup_text</name>
+   <tag></tag>
+   <elementGuidId>9fa7f337-e991-4173-98ee-da9bd5cec22d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dialogReader .el-dialog__body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-username']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5b923a14-0fe4-47b4-92f9-ca1e5ba9d01a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submit mainBtn</value>
+      <webElementGuid>c7f105ef-7e17-4fc9-a29a-06d45d609b55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        登入
+                      </value>
+      <webElementGuid>875471c7-4d4c-48a1-a165-a77057fced61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-username&quot;)/div[@class=&quot;submit mainBtn&quot;]</value>
+      <webElementGuid>de4bcaed-aa08-4554-b488-19af90696c3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-username']/div[2]</value>
+      <webElementGuid>af6b1111-cc6e-483b-b808-49b675a30d0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='記住帳號'])[1]/following::div[1]</value>
+      <webElementGuid>b6b2f7c0-798a-446b-a1a3-19db28931691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QR Code登入'])[1]/following::div[11]</value>
+      <webElementGuid>a2e73259-a583-438f-ac78-ac4720a511ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='註冊帳號'])[1]/preceding::div[1]</value>
+      <webElementGuid>b78733f2-6dac-4359-b215-01a448990ab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='忘記密碼 / 使用一次性密碼'])[1]/preceding::div[2]</value>
+      <webElementGuid>2a159ffb-8ca9-4099-90fd-0cc6080b8922</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='登入']/parent::*</value>
+      <webElementGuid>bc33f922-d252-4e30-a8fe-1b6836d2a95d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>97829929-f7dc-496f-8d07-59ae7daa395b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                        登入
+                      ' or . = '
+                        登入
+                      ')]</value>
+      <webElementGuid>f17bd2f0-5fd9-40af-b766-eaefddca85b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>管理版Web_Case1&#xd;
+登記全戶通知包裹</description>
+   <name>Case5_Part1 - Register</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2dc4538c-f7aa-40e7-be9d-82f474a2df01</testCaseGuid>
+</TestCaseEntity>

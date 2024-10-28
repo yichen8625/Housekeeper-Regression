@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Mobile_barcode</name>
+   <tag></tag>
+   <elementGuidId>b54c7514-19d5-4b51-ba23-c0748f495f38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.way-select > ul > li</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='methodSelDialog']/div/div[2]/div/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>85e49a1b-1d93-4643-8342-008d3758e526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>手機條碼</value>
+      <webElementGuid>99e37947-e367-4168-abc2-ab3deac13515</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;methodSelDialog&quot;)/div[@class=&quot;el-dialog el-dialog--center&quot;]/div[@class=&quot;el-dialog__body&quot;]/div[@class=&quot;way-select&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>84f07cb0-27fa-4ab9-8f36-cb8a5528766e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='methodSelDialog']/div/div[2]/div/ul/li</value>
+      <webElementGuid>3b571e3b-3bc8-490c-b0e3-d089619459c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請選擇驗證方式'])[1]/following::li[1]</value>
+      <webElementGuid>4b132311-faf5-4b3f-ba7f-4faa1d0000b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='領取'])[2]/following::li[1]</value>
+      <webElementGuid>8a5ed6f5-1825-48c3-876b-91c55421785f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='門禁卡、磁扣'])[1]/preceding::li[1]</value>
+      <webElementGuid>5f51ecf3-3714-479d-ade9-2b0e1ab1aba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div/ul/li</value>
+      <webElementGuid>fa50254a-b44e-4f55-aa18-21eb8e4b9e78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '手機條碼' or . = '手機條碼')]</value>
+      <webElementGuid>66d8fe1c-2d5d-4f41-a7c4-7a1621e0e9ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

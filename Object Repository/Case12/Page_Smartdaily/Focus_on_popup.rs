@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Focus_on_popup</name>
+   <tag></tag>
+   <elementGuidId>406bec35-21e5-4fba-bd83-3dbe6496a021</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dialogReader']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dialogReader .el-dialog__body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7fb02a5d-19cc-49e1-a8bf-ad1a4d670176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-dialog__body</value>
+      <webElementGuid>c24e06d2-c1f7-47ee-9610-07cf6bad2c05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          請住戶開啟APP，掃描住戶手機條碼
+        </value>
+      <webElementGuid>3bd97d64-6447-4e40-b78b-2c3da7fc2f0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dialogReader&quot;)/div[@class=&quot;el-dialog el-dialog--center&quot;]/div[@class=&quot;el-dialog__body&quot;]</value>
+      <webElementGuid>5653382a-66ed-4720-bb28-7d2db38d2b25</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dialogReader']/div/div[2]</value>
+      <webElementGuid>a938c507-2c5a-4e48-b065-872b50c719b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請選擇住戶資訊(棟別、樓層、戶別)'])[2]/following::div[5]</value>
+      <webElementGuid>a8e55944-9fa0-46a1-831c-ba84c564d921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='確定領取'])[1]/following::div[9]</value>
+      <webElementGuid>49f59f76-7fb4-4350-b49d-546489b43094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請輸入包裹/郵件條碼'])[1]/preceding::div[4]</value>
+      <webElementGuid>4fc97cba-a364-43b4-a45d-afcd36d830e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]</value>
+      <webElementGuid>f14226e4-63a0-4386-9f76-9ed0176b956f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+          請住戶開啟APP，掃描住戶手機條碼
+        ' or . = '
+          請住戶開啟APP，掃描住戶手機條碼
+        ')]</value>
+      <webElementGuid>56e2ad54-a517-4e2a-877d-20f73786a316</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

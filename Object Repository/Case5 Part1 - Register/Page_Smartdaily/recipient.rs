@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>recipient</name>
+   <tag></tag>
+   <elementGuidId>28485e83-c138-47db-bd90-ade4f72dcc32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#selReceipt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='postalRows']/tr/td[5]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>92d5a266-74a1-4b03-b24d-e47673cb1c6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control muti-name</value>
+      <webElementGuid>de987c46-c571-4886-a0e5-9f88348504eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>請選收件人全戶通知</value>
+      <webElementGuid>402d6932-bf0d-41d2-9689-4a80ce29ff4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;postalRows&quot;)/tr[1]/td[5]/div[1]/select[@class=&quot;form-control muti-name&quot;]</value>
+      <webElementGuid>0f84b747-035e-40e0-93a3-e9060f97b496</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='postalRows']/tr/td[5]/div/select</value>
+      <webElementGuid>81372cba-e24a-45d3-a7e9-d15a5f20946c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A1F2'])[1]/following::select[1]</value>
+      <webElementGuid>48d54715-a097-4db9-a06c-0e008258a83a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='冷凍'])[1]/following::select[1]</value>
+      <webElementGuid>7bb1d3f7-d9d7-4472-87ae-f51198a1500b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='備註'])[2]/preceding::select[1]</value>
+      <webElementGuid>313caaf0-0b86-49b0-aa54-550827752450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='位置'])[1]/preceding::select[1]</value>
+      <webElementGuid>fd1dd1d0-e50d-4ac4-95ec-d79ab0778857</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/select</value>
+      <webElementGuid>c4388391-fef3-441d-9ab3-dd17f5e98086</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = '請選收件人全戶通知' or . = '請選收件人全戶通知')]</value>
+      <webElementGuid>9fd33d0b-ae4b-4999-9333-e2242867d146</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

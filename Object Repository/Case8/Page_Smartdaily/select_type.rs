@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_type</name>
+   <tag></tag>
+   <elementGuidId>746c7225-9fe3-4edb-b722-823bf7f7d235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='paymentTBody']/tr/td[3]/div[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-control.floatL</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>aa44bb20-e7f7-4621-9638-8432434dcdf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control floatL</value>
+      <webElementGuid>88e31f1e-e9a0-4efa-8465-ae491f2f56b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>請選擇其他物品文件蔬果食品飲品生鮮衣物</value>
+      <webElementGuid>a7290a18-eea1-4815-a65b-86fe9eab988f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paymentTBody&quot;)/tr[@class=&quot;error&quot;]/td[@class=&quot;type-cgy&quot;]/div[2]/select[@class=&quot;form-control floatL&quot;]</value>
+      <webElementGuid>2eb344dc-aab6-4fc7-917d-35f3d8912446</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='paymentTBody']/tr/td[3]/div[2]/select</value>
+      <webElementGuid>0df736a8-4e8f-4ae3-94a7-aba77d1f87e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='B61'])[1]/following::select[2]</value>
+      <webElementGuid>63aa9a07-e69c-486a-bc3e-5117e7e71caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='操作'])[1]/following::select[2]</value>
+      <webElementGuid>d029f7d2-fd3f-4a23-8b05-501e7f4800cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='冷藏'])[1]/preceding::select[1]</value>
+      <webElementGuid>67481927-88be-4bf4-a202-97246a7ea13c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='冷凍'])[1]/preceding::select[1]</value>
+      <webElementGuid>22e42737-f726-4dc6-8527-026701c0dfe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>d852e732-97ad-4a19-be31-41f45792fbc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = '請選擇其他物品文件蔬果食品飲品生鮮衣物' or . = '請選擇其他物品文件蔬果食品飲品生鮮衣物')]</value>
+      <webElementGuid>66433ba5-5727-419c-9301-c7efc147feda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
