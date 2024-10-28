@@ -13,9 +13,13 @@ build
 
 .classpath
 
+<<<<<<< HEAD
 .project
 /bin/
 /Libs/
 /.settings/
 /.classpath
 .svn/
+=======
+.project
+>>>>>>> feature/noah-plus

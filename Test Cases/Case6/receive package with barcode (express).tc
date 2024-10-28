@@ -6,4 +6,20 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a1de7587-cf57-4e4c-a80b-06fc3da30f34</testCaseGuid>
+<<<<<<< HEAD
+=======
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e531e62-e6f0-4729-aef3-b79fc5dc138d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1FTLB656H67P74T3'</defaultValue>
+      <description></description>
+      <id>5e531e62-e6f0-4729-aef3-b79fc5dc138d</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+>>>>>>> feature/noah-plus
 </TestCaseEntity>

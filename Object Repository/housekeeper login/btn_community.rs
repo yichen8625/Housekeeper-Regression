@@ -7,11 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>.communitySelect div:nth-child(4)</value>
+=======
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.communitySelect div:nth-child(1)</value>
+>>>>>>> feature/noah-plus
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

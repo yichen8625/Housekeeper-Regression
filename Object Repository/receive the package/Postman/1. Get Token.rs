@@ -39,6 +39,16 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+<<<<<<< HEAD
+=======
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description>housekeeperToken</description>
+      <id>99726ac2-d5b6-403c-8070-c62a1a78534b</id>
+      <masked>false</masked>
+      <name>Token</name>
+   </variables>
+>>>>>>> feature/noah-plus
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -48,8 +58,26 @@ import com.kms.katalon.core.webservice.verification.WSResponseManager
 
 import groovy.json.JsonSlurper
 
+<<<<<<< HEAD
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+=======
+import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
+import com.kms.katalon.core.testobject.RestRequestObjectBuilder
+import java.util.Random
+import internal.GlobalVariable as GlobalVariable
+import groovy.json.JsonSlurper
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration
+
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+</verificationScript>
+>>>>>>> feature/noah-plus
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

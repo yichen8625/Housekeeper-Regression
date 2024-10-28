@@ -14,7 +14,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+<<<<<<< HEAD
 import internal.GlobalVariable as GlobalVariable
+=======
+>>>>>>> feature/noah-plus
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testobject.RestRequestObjectBuilder
@@ -29,9 +32,19 @@ import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
+<<<<<<< HEAD
 
 '導航至管理版首頁'
 WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
+=======
+import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonOutput
+
+'導航至管理版首頁'
+WebUI.navigateToUrl(GlobalVariable.G_community)
+
+WebUI.maximizeWindow()
+>>>>>>> feature/noah-plus
 
 WebUI.waitForPageLoad(2)
 
@@ -40,7 +53,10 @@ WebUI.click(findTestObject('Object Repository/register the package/btn_managemen
 
 WebUI.click(findTestObject('Object Repository/receive the package/btn_receive'))
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/noah-plus
 '領取方式-手機條碼'
 
 WebUI.waitForPageLoad(5)
@@ -49,15 +65,49 @@ WebUI.click(findTestObject('receive the package/btn_camera_confirm'), FailureHan
 
 WebUI.click(findTestObject('Object Repository/receive the package/type_barcode'), FailureHandling.CONTINUE_ON_FAILURE)
 
+<<<<<<< HEAD
+=======
+WebUI.setText(findTestObject('Object Repository/receive the package/input_token'), code)
+
+WebUI.sendKeys(findTestObject('Object Repository/receive the package/input_token'), Keys.chord(Keys.ENTER))
+
+
+'信件包裹領取'
+WebUI.scrollToElement(findTestObject('Object Repository/receive the package/title_list'), 3)
+
+WebUI.click(findTestObject('Object Repository/receive the package/checkbox_all'))
+
+WebUI.click(findTestObject('Object Repository/receive the package/checkbox_first'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/receive the package/btn_end'), 3)
+
+WebUI.click(findTestObject('Object Repository/receive the package/btn_end'))
+
+WebUI.delay(3)
+//截圖路徑
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\手機條碼領取包裹.png')
+
+WebUI.closeBrowser()
+
+/* 
+>>>>>>> feature/noah-plus
 '取得管理版 user token'
 def response = WS.sendRequest(findTestObject('Object Repository/receive the package/Postman/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/noah-plus
 '管理版 user token 存入全域變數'
 U_Token = jsonResponse.Data.Token
 GlobalVariable.G_H_TOKEN = U_Token
 println("G_H_TOKEN: " + GlobalVariable.G_H_TOKEN)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/noah-plus
 '取得 CommunityLogin token'
 def CommunityLogin = new RestRequestObjectBuilder()
 def requestObject_c_login = CommunityLogin
@@ -66,12 +116,16 @@ def requestObject_c_login = CommunityLogin
     .withHttpHeaders([
         new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
     ])
+<<<<<<< HEAD
     .withTextBodyContent('''
     {
         "Token": "${GlobalVariable.G_H_TOKEN}",
         "ComId": "17041002"
     }
     ''')
+=======
+    .withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+17041002+'"}')
+>>>>>>> feature/noah-plus
     .build()
 	
 // request to /api/Login/CommunityLogin
@@ -84,8 +138,13 @@ def cookies = c_response.getHeaderFields().get('Set-Cookie')
 if (cookies != null && cookies.size() > 0) {
     // 取第一段 cookie
     def cookie = cookies[0].split(';')[0] // 只取cookie名&值
+<<<<<<< HEAD
     GlobalVariable.G_C_COOKIE = cookie
     KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_C_COOKIE)
+=======
+    GlobalVariable.G_community = cookie
+    KeywordUtil.logInfo("G_C_COOKIE: " + GlobalVariable.G_community)
+>>>>>>> feature/noah-plus
 } else {
     KeywordUtil.logInfo("No cookies found in the response.")
 };
@@ -97,7 +156,11 @@ def requestObject_cc = checkUserCode
 	.withRestRequestMethod("POST")
 	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/checkUserCode")
 	.withHttpHeaders([
+<<<<<<< HEAD
 		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_C_COOKIE}"),
+=======
+		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_community}"),
+>>>>>>> feature/noah-plus
 		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
 ])
 	.withTextBodyContent('code=583RHBP23D145014')
@@ -108,6 +171,7 @@ println(UserCode.statusCode);
 println(UserCode.responseBodyContent);
 assert UserCode.getStatusCode() == 200;
 
+<<<<<<< HEAD
 /* 使用變數
 final ResponseObject response = WS.sendRequest(yourRequestTestObject);
 final String yourValue = new JsonSlurper()
@@ -144,3 +208,32 @@ println(response.statusCode);
 println(response.responseBodyContent);
 assert response.getStatusCode() == 200
 */
+=======
+
+'getPostalList'
+def getPostalList = new RestRequestObjectBuilder()
+def PostalList = getPostalList
+	.withRestRequestMethod("POST")
+	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/getPostalList")
+	.withHttpHeaders([
+		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_community}"),
+		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
+])
+	.withTextBodyContent("jsonStr=[{\"condition\":\"[{\\\"name\\\":\\\"a\\\",\\\"val\\\":\\\"2\\\"},{\\\"name\\\":\\\"b\\\",\\\"val\\\":\\\"1704100010\\\"}]\"}]")
+
+	//.withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+17041002+'"}')	
+	.build()
+
+def List = WS.sendRequest(PostalList)
+println(List.statusCode);
+println(List.responseBodyContent);
+assert List.getStatusCode() == 200;
+
+def tt = JsonOutput.toJson(List)
+return tt
+
+WebUI.delay(10)
+*/
+
+
+>>>>>>> feature/noah-plus

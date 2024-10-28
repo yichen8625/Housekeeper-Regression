@@ -31,7 +31,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
 
 '導航至管理版首頁'
+<<<<<<< HEAD
 WebUI.navigateToUrl('https://test.kingnetsmart.com.tw/community/main.aspx')
+=======
+WebUI.navigateToUrl(GlobalVariable.G_community)
+>>>>>>> feature/noah-plus
 
 WebUI.maximizeWindow()
 
@@ -44,7 +48,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/announcement/btn_edit'))
 
+<<<<<<< HEAD
 '快速領取'
+=======
+'快速領取btn'
+>>>>>>> feature/noah-plus
 WebUI.click(findTestObject('Object Repository/announcement/btn_quick_receive'))
 
 '領取方式-手機條碼'
@@ -52,8 +60,30 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/announcement/type_barcode'), FailureHandling.CONTINUE_ON_FAILURE)
 
+<<<<<<< HEAD
 '取得管理版 user token'
 def response = WS.sendRequest(findTestObject('Object Repository/receive the package/Postman/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
 
+=======
+WebUI.setText(findTestObject('Object Repository/receive the package/input_quick_token'), code)
+
+WebUI.sendKeys(findTestObject('Object Repository/receive the package/input_quick_token'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/receive the package/btn_quick_confirm'))
+
+'快速領取'
+
+WebUI.click(findTestObject('Object Repository/receive the package/checkbox_quick_all'))
+
+WebUI.click(findTestObject('Object Repository/receive the package/checkbox_quick_first'))
+
+WebUI.click(findTestObject('Object Repository/receive the package/btn_quick_end'))
+
+WebUI.delay(3)
+//截圖路徑
+WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\housekeeper regression\\ScreenShoot\\(快速領取)手機條碼領取包裹.png')
+
+WebUI.closeBrowser()
+>>>>>>> feature/noah-plus

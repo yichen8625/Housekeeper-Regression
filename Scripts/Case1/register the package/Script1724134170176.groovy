@@ -20,6 +20,11 @@ import org.openqa.selenium.Keys as Keys
 '導航至管理版首頁'
 WebUI.navigateToUrl("https://test.kingnetsmart.com.tw/community/main.aspx")
 
+<<<<<<< HEAD
+=======
+WebUI.maximizeWindow()
+
+>>>>>>> feature/noah-plus
 WebUI.waitForPageLoad(2)
 
 '郵務管理-登記'
@@ -33,16 +38,28 @@ WebUI.click(findTestObject("Object Repository/register the package/checkbox_type
 '選擇B2F3住戶資訊'
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_tablet"))
 
+<<<<<<< HEAD
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (A)"))
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (2F)"))
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_A1F2"))
+=======
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_building (太陽)"))
+
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_floor (1樓)"))
+
+WebUI.click(findTestObject("Object Repository/register the package/checkbox_太陽1樓-1"))
+>>>>>>> feature/noah-plus
 
 WebUI.click(findTestObject("Object Repository/register the package/checkbox_address (Nc AutoTest)"), FailureHandling.CONTINUE_ON_FAILURE)
 
 '收件人'
+<<<<<<< HEAD
 WebUI.setText(findTestObject("Object Repository/register the package/input_addressee"), addressee)
+=======
+// WebUI.setText(findTestObject("Object Repository/register the package/input_addressee"), addressee)
+>>>>>>> feature/noah-plus
 
 '通知住戶'
 WebUI.click(findTestObject("Object Repository/register the package/btn_notify"))
@@ -52,6 +69,10 @@ WebUI.click(findTestObject("Object Repository/register the package/btn_confirm")
 */
 '登記成功截圖'
 WebUI.delay(3)
+<<<<<<< HEAD
+=======
+//截圖路徑
+>>>>>>> feature/noah-plus
 WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
 
 '包裹登記結果'

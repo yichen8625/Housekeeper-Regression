@@ -3,13 +3,20 @@
    <description></description>
    <name>staging</name>
    <tag></tag>
+<<<<<<< HEAD
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>staging</description>
+=======
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>login</description>
+>>>>>>> feature/noah-plus
       <initValue>'https://test.kingnetsmart.com.tw/mgmt/login'</initValue>
       <name>G_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description>housekeeper Token</description>
       <initValue>'${GlobalVariable.G_H_TOKEN}'</initValue>
       <name>G_H_TOKEN</name>
@@ -18,5 +25,10 @@
       <description>CommunityLogin Token</description>
       <initValue>'${GlobalVariable.G_C_COOKIE}'</initValue>
       <name>G_C_COOKIE</name>
+=======
+      <description>after login</description>
+      <initValue>'https://test.kingnetsmart.com.tw/community/main.aspx'</initValue>
+      <name>G_community</name>
+>>>>>>> feature/noah-plus
    </GlobalVariableEntity>
 </GlobalVariableEntities>
