@@ -18,22 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 '導航至管理版首頁'
-WebUI.navigateToUrl("https://test.kingnetsmart.com.tw/community/main.aspx")
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(2)
 
-'郵務管理-登記'
-WebUI.click(findTestObject("Object Repository/register packages/btn_management"))
+'寄放物品'
+WebUI.click(findTestObject("Object Repository/register items/btn_registerThings"))
 
-WebUI.click(findTestObject('Object Repository/register packages/btn_register'))
+WebUI.delay(3)
 
-'信件包裹類型'
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_type"))
+WebUI.click(findTestObject('receive packages/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
 
-'選擇B2F3住戶資訊'
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_tablet"))
+WebUI.click(findTestObject('Object Repository/register items/btn_register'))
+
+'寄放領取'
+//Step2. 選擇戶別
+WebUI.click(findTestObject("Object Repository/register items/btn_else"))
+
+WebUI.setText(findTestObject('Object Repository/register items/input_name'), name)
+
+WebUI.click(findTestObject("Object Repository/register items/btn_tablet"))
 
 WebUI.click(findTestObject("Object Repository/register packages/checkbox_building (太陽)"))
 
@@ -41,23 +47,22 @@ WebUI.click(findTestObject("Object Repository/register packages/checkbox_floor (
 
 WebUI.click(findTestObject("Object Repository/register packages/checkbox_太陽1樓-1"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_address (Nc AutoTest)"), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject("Object Repository/register items/checkbox_selecter"))
 
-'收件人'
-// WebUI.setText(findTestObject("Object Repository/register packages/input_addressee"), addressee)
+WebUI.click(findTestObject("Object Repository/register items/btn_nextstep"))
 
-'通知住戶'
-WebUI.click(findTestObject("Object Repository/register packages/btn_notify"))
-/*
-'確認完成'
-WebUI.click(findTestObject("Object Repository/register packages/btn_confirm"))
-*/
+//Step3. 確認細項
+WebUI.click(findTestObject("Object Repository/register items/checkbox_type"))
+
+WebUI.click(findTestObject("Object Repository/register items/checkbox_content"))
+
+WebUI.click(findTestObject("Object Repository/register items/btn_send"))
+
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
-
-'包裹登記結果'
-WebUI.click(findTestObject("Object Repository/register packages/btn_result"))
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case08 管理員完成寄放物品登記\\寄放物品登記.png')
 
 WebUI.closeBrowser()
+
+

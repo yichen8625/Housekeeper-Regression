@@ -15,7 +15,7 @@
       <guid>7ede0a1d-883f-4e28-9251-b6ef51b9469b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case1 (Common)/housekeeper login</testCaseId>
+      <testCaseId>Test Cases/Case001 (Common)/housekeeper login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +34,7 @@
       <guid>c64e48a5-b55f-4cf3-b896-b918f27ec42f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case1 (Common)/register the package (太陽1樓-1)</testCaseId>
+      <testCaseId>Test Cases/Case001 (Common)/register the package (太陽1樓-1)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

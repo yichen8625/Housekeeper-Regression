@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>用門禁卡感應領取寄放物品</description>
-   <name>Case10 用門禁卡感應領取寄放物品</name>
+   <description></description>
+   <name>Case02 登記水星2樓-1通知包裹</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,37 +10,31 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a4e48fae-85e8-47ca-9beb-dc13cb5c82d3</testSuiteGuid>
+   <testSuiteGuid>76a102ad-99d7-4ad9-bb84-97b8374cd461</testSuiteGuid>
    <testCaseLink>
-      <guid>067867ca-a5b9-4f15-b98a-ada3640859fb</guid>
+      <guid>e9a7628c-d006-4ce0-a397-2ba4abfc5af0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case008 (Common)/housekeeper login</testCaseId>
+      <testCaseId>Test Cases/Case001 (Common)/housekeeper login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a88cf31a-1329-4813-b165-26646af2a4a9</variableId>
+         <variableId>0e1bfde1-cbd5-45ed-9846-1015bdad4fdd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a54bb7f4-bd75-458b-a5c1-5952ebcb32ff</variableId>
+         <variableId>eba69b9f-6177-4da7-9579-b3cbb18762aa</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f81f6a71-3b8f-4e18-9296-ea31215e1a78</guid>
+      <guid>32a6fde6-2e92-418c-9351-5ca84fe5f08e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case010/receive things with card</testCaseId>
+      <testCaseId>Test Cases/Case002/register the personal package (水星2樓-1)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f72aa50a-9435-4cfc-a48d-8a19f361149b</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

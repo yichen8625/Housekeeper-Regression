@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
-   <description>智生活手機條碼快速領取包裹</description>
-   <name>Case06 用智生活手機條碼快速領取包裹</name>
+   <description></description>
+   <name>Case05 用門禁卡領取包裹</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Action element/Case06 用智生活手機條碼快速領取包裹</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Action element/Case05 用門禁卡領取包裹</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

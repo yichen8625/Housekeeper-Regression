@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>用門禁卡感應領取寄放物品</description>
-   <name>Case10 用門禁卡感應領取寄放物品</name>
+   <description></description>
+   <name>Case11 用掃描手機條碼快速領取寄放物品</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a4e48fae-85e8-47ca-9beb-dc13cb5c82d3</testSuiteGuid>
+   <testSuiteGuid>f46a329b-807f-4b50-a20f-a15f2611960c</testSuiteGuid>
    <testCaseLink>
-      <guid>067867ca-a5b9-4f15-b98a-ada3640859fb</guid>
+      <guid>ed31aaad-851c-4ddb-8d9b-be346545c10e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case008 (Common)/housekeeper login</testCaseId>
@@ -31,16 +31,16 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f81f6a71-3b8f-4e18-9296-ea31215e1a78</guid>
+      <guid>b9c2e650-3b7c-4c62-af72-ceac1fd329e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case010/receive things with card</testCaseId>
+      <testCaseId>Test Cases/Case011/receive things with barcode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f72aa50a-9435-4cfc-a48d-8a19f361149b</variableId>
+         <variableId>eed6acda-dc97-42f7-98a0-a1cb5afb6618</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

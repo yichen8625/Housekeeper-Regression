@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>智生活手機條碼領取包裹</description>
+   <name>receive package with card</name>
+   <tag>receive package</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0656cbdb-dd3b-48d6-9f36-c4e0175472e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f18257a-b678-496e-ba30-5533d7739e7f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0363982179'</defaultValue>
+      <description></description>
+      <id>6f18257a-b678-496e-ba30-5533d7739e7f</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

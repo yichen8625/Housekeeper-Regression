@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>用門禁卡感應領取寄放物品</description>
+   <name>receive things with card (express)</name>
+   <tag>receive</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>044d4706-b1d7-44ae-a36a-65c71d1205da</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00b2c56d-9fbb-497e-9b40-6cd57cf7a5f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0363982179'</defaultValue>
+      <description></description>
+      <id>00b2c56d-9fbb-497e-9b40-6cd57cf7a5f6</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Action element/Case9 用智生活手機條碼領取寄放物品</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Action element/Case09 用智生活手機條碼領取寄放物品</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
