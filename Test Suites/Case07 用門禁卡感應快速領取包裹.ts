@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteCollectionEntity>
+   <description></description>
+   <name>Case07 用門禁卡感應快速領取包裹</name>
+   <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
+   <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <testSuiteRunConfigurations>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>prod</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Case01 登記太陽1樓-1通知包裹</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>prod</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Action element/Case07 用門禁卡感應快速領取包裹</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+   </testSuiteRunConfigurations>
+</TestSuiteCollectionEntity>

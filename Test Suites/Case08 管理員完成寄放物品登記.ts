@@ -15,7 +15,7 @@
       <guid>f86c9bc4-69e0-43e2-b59f-b83fc6c7ebef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case8 (Common)/housekeeper login</testCaseId>
+      <testCaseId>Test Cases/Case008 (Common)/housekeeper login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +34,7 @@
       <guid>8b8f80a2-3899-4748-bd10-12bd3235c98d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case8 (Common)/register the things</testCaseId>
+      <testCaseId>Test Cases/Case008 (Common)/register the item</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

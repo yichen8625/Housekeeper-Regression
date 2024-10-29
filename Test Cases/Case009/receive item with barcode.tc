@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>用智生活手機條碼領取寄放物品</description>
+   <name>receive item with barcode</name>
+   <tag>receive</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa916efe-0cfe-46ba-be90-8f59ffc47a4f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8baa03f-b421-4f93-ae3b-3c71acd7f76e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7Z749VRD101T9834'</defaultValue>
+      <description></description>
+      <id>f8baa03f-b421-4f93-ae3b-3c71acd7f76e</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

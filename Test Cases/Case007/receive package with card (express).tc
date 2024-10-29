@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>用門禁卡感應快速領取包裹</description>
+   <name>receive package with card (express)</name>
+   <tag>receive package</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42be6293-f741-4bf1-836a-0827a8051be2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0664de6-3a28-4c40-8a87-fd37e88fa462</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0363982179'</defaultValue>
+      <description></description>
+      <id>b0664de6-3a28-4c40-8a87-fd37e88fa462</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>
