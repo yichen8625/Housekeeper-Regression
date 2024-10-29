@@ -34,7 +34,7 @@
       <guid>2c36cc79-9d9c-45f9-a91a-b4fe7f647b09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case012/receive things with card (express)</testCaseId>
+      <testCaseId>Test Cases/Case012/receive item with card (express)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

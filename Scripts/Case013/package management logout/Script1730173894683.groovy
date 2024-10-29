@@ -25,16 +25,16 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(2)
 
 '郵務管理-登記'
-WebUI.click(findTestObject("Object Repository/register packages/btn_management"))
+WebUI.click(findTestObject("Object Repository/table/wrap_package"))
 
 '展開列表'
-WebUI.click(findTestObject("Object Repository/housekeeper logout/btn_logininfo"))
+WebUI.click(findTestObject("Object Repository/table/header/btn_logininfo"))
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case13 管理員能從郵務管理完成登出\\登出前.png')
 
-WebUI.click(findTestObject("Object Repository/housekeeper logout/btn_logout"))
+WebUI.click(findTestObject("Object Repository/table/header/btn_logout"))
 
 '登出後截圖'
 WebUI.delay(3)

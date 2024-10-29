@@ -34,7 +34,7 @@
       <guid>b9c2e650-3b7c-4c62-af72-ceac1fd329e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case011/receive things with barcode</testCaseId>
+      <testCaseId>Test Cases/Case011/receive item with barcode (express)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

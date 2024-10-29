@@ -25,32 +25,32 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(2)
 
 '郵務管理-登記'
-WebUI.click(findTestObject("Object Repository/register packages/btn_management"))
+WebUI.click(findTestObject("Object Repository/table/wrap_package"))
 
-WebUI.click(findTestObject('Object Repository/register packages/btn_register'))
+WebUI.click(findTestObject('Object Repository/table/package/register packages/btn_register'))
 
 '信件包裹類型'
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_type"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/checkbox_type"))
 
 '選擇B2F3住戶資訊'
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_tablet"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/btn_tablet"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_building (太陽)"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_building (太陽)"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_floor (1樓)"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_floor (1樓)"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_太陽1樓-1"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_太陽1樓-1"))
 
-//WebUI.click(findTestObject("Object Repository/register packages/checkbox_address (Nc AutoTest)"), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject("null"), FailureHandling.CONTINUE_ON_FAILURE)
 
 '收件人'
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_register"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/checkbox_register"))
 
 '通知住戶'
-WebUI.click(findTestObject("Object Repository/register packages/btn_notify"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/btn_notify"))
 /*
 '確認完成'
-WebUI.click(findTestObject("Object Repository/register packages/btn_confirm"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/btn_confirm"))
 */
 '登記成功截圖'
 WebUI.delay(3)
@@ -58,6 +58,6 @@ WebUI.delay(3)
 WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case01 登記全戶通知包裹\\(太陽1樓-1)包裹登記.png')
 
 '包裹登記結果'
-WebUI.click(findTestObject("Object Repository/register packages/btn_result"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/btn_result"))
 
 //WebUI.closeBrowser()

@@ -34,7 +34,7 @@
       <guid>8b8f80a2-3899-4748-bd10-12bd3235c98d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case008 (Common)/register the things</testCaseId>
+      <testCaseId>Test Cases/Case008 (Common)/register the item</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

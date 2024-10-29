@@ -24,12 +24,12 @@ WebUI.deleteAllCookies()
 WebUI.navigateToUrl(GlobalVariable.G_URL)
 
 '管理版登入'
-WebUI.setText(findTestObject('Object Repository/housekeeper login/input_account'), phone)
+WebUI.setText(findTestObject('Object Repository/login/input_account'), phone)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/housekeeper login/input_password'), pw)
+WebUI.setEncryptedText(findTestObject('Object Repository/login/input_password'), pw)
 
 '登入'
-WebUI.click(findTestObject('Object Repository/housekeeper login/btn_login'))
+WebUI.click(findTestObject('Object Repository/login/btn_login'))
 
 '登入社區'
-WebUI.click(findTestObject('Object Repository/housekeeper login/btn_community'))
+WebUI.click(findTestObject('Object Repository/login/btn_community'))

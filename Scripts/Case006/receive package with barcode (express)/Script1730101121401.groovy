@@ -38,33 +38,33 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(2)
 
 '編輯公告'
-WebUI.click(findTestObject('Object Repository/announcement/btn_announcement'))
+WebUI.click(findTestObject('Object Repository/table/wrap_announcement'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/announcement/btn_edit'))
+WebUI.click(findTestObject('Object Repository/table/announcement/btn_edit'))
 
 '快速領取btn'
-WebUI.click(findTestObject('Object Repository/announcement/btn_quick_receive'))
+WebUI.click(findTestObject('Object Repository/table/btn_quick_receive'))
 
 '領取方式-手機條碼'
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Object Repository/announcement/type_barcode'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/quick receive/wrap_barcode'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/receive packages/input_quick_token'), code)
+WebUI.setText(findTestObject('Object Repository/quick receive/input_token'), code)
 
-WebUI.sendKeys(findTestObject('Object Repository/receive packages/input_quick_token'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/quick receive/input_token'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/receive packages/btn_quick_confirm'))
+WebUI.click(findTestObject('Object Repository/quick receive/receive-package/btn_quick_confirm'))
 
 '快速領取'
 
-WebUI.click(findTestObject('Object Repository/receive packages/checkbox_quick_all'))
+WebUI.click(findTestObject('Object Repository/quick receive/receive-package/checkbox_all'))
 
-WebUI.click(findTestObject('Object Repository/receive packages/checkbox_quick_first'))
+WebUI.click(findTestObject('Object Repository/quick receive/receive-package/checkbox_first'))
 
-WebUI.click(findTestObject('Object Repository/receive packages/btn_quick_end'))
+WebUI.click(findTestObject('Object Repository/quick receive/receive-package/btn_receive'))
 
 WebUI.delay(3)
 //截圖路徑

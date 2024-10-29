@@ -37,7 +37,7 @@ WebUI.deleteAllCookies()
 WebUI.navigateToUrl(GlobalVariable.G_URL)
 
 '取得管理版 user token'
-def response = WS.sendRequest(findTestObject('Object Repository/receive packages/Postman/1. Get Token'));
+def response = WS.sendRequest(findTestObject('Object Repository/table/package/receive packages/Postman/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
 

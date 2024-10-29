@@ -39,36 +39,36 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(2)
 
 '郵務管理-登記'
-WebUI.click(findTestObject("Object Repository/register packages/btn_management"))
+WebUI.click(findTestObject("Object Repository/table/wrap_package"))
 
-WebUI.click(findTestObject('Object Repository/register packages/btn_register'))
+WebUI.click(findTestObject('Object Repository/table/package/register packages/btn_register'))
 
 '信件包裹類型'
-WebUI.click(findTestObject("Object Repository/register packages/btn_packageinfo"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/btn_packageinfo"))
 
-WebUI.click(findTestObject("Object Repository/register packages/packageInfo/checkbox_type"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/packageInfo/checkbox_type"))
 
-WebUI.click(findTestObject("Object Repository/register packages/packageInfo/checkbox_Tcat"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/packageInfo/checkbox_Tcat"))
 
-WebUI.click(findTestObject("Object Repository/register packages/packageInfo/btn_next"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/packageInfo/btn_next"))
 
 '選擇水星2樓-1住戶資訊'
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_building (水星)"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_building (水星)"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_floor (2樓)"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_floor (2樓)"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_水星2樓-1"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_水星2樓-1"))
 
-WebUI.click(findTestObject("Object Repository/register packages/checkbox_address (美美)"), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/tablet/checkbox_address (美美)"), FailureHandling.CONTINUE_ON_FAILURE)
 
 '收件人'
-//WebUI.click(findTestObject("Object Repository/register packages/checkbox_register"))
+//WebUI.click(findTestObject("Object Repository/table/package/register packages/register/checkbox_register"))
 
 '通知住戶'
-WebUI.click(findTestObject("Object Repository/register packages/btn_notify"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/btn_notify"))
 /*
 '確認完成'
-WebUI.click(findTestObject("Object Repository/register packages/btn_confirm"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/btn_confirm"))
 */
 '登記成功截圖'
 WebUI.delay(3)
@@ -77,6 +77,6 @@ WebUI.delay(3)
 WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case02 登記限本人包裹\\(水星2樓-1)包裹登記.png')
 
 '包裹登記結果'
-WebUI.click(findTestObject("Object Repository/register packages/btn_result"))
+WebUI.click(findTestObject("Object Repository/table/package/register packages/register/btn_result"))
 
 WebUI.closeBrowser()

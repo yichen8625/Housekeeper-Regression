@@ -39,33 +39,33 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(2)
 
 '郵務管理-領取'
-WebUI.click(findTestObject('Object Repository/register packages/btn_management'))
+WebUI.click(findTestObject('Object Repository/table/wrap_package'))
 
-WebUI.click(findTestObject('Object Repository/receive packages/btn_receive'))
+WebUI.click(findTestObject('Object Repository/table/package/receive packages/btn_receive'))
 
 '領取方式-門禁卡、磁釦'
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('receive packages/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('table/package/receive packages/btn_camera_confirm'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/receive packages/type_card'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/table/package/receive packages/wrap_card'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/receive packages/input_token_c'), code)
+WebUI.setText(findTestObject('Object Repository/table/package/receive packages/input_token_card'), code)
 
-WebUI.sendKeys(findTestObject('Object Repository/receive packages/input_token_c'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/table/package/receive packages/input_token_card'), Keys.chord(Keys.ENTER))
 
 
 '信件包裹領取'
-WebUI.scrollToElement(findTestObject('Object Repository/receive packages/title_list'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/table/package/receive packages/receive/element_title'), 3)
 
-WebUI.click(findTestObject('Object Repository/receive packages/checkbox_all'))
+WebUI.click(findTestObject('Object Repository/table/package/receive packages/receive/checkbox_all'))
 
-WebUI.click(findTestObject('Object Repository/receive packages/checkbox_first'))
+WebUI.click(findTestObject('Object Repository/table/package/receive packages/receive/checkbox_first'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/receive packages/btn_end'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/table/package/receive packages/receive/btn_receive'), 3)
 
-WebUI.click(findTestObject('Object Repository/receive packages/btn_end'))
+WebUI.click(findTestObject('Object Repository/table/package/receive packages/receive/btn_receive'))
 
 WebUI.delay(3)
 //截圖路徑
@@ -75,7 +75,7 @@ WebUI.closeBrowser()
 
 /* 
 '取得管理版 user token'
-def response = WS.sendRequest(findTestObject('Object Repository/receive packages/Postman/1. Get Token'));
+def response = WS.sendRequest(findTestObject('Object Repository/table/package/receive packages/Postman/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
 

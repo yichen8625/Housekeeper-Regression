@@ -34,7 +34,7 @@
       <guid>b035c27e-45e9-436f-b97d-c2ade65134bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case14/announcement logout</testCaseId>
+      <testCaseId>Test Cases/Case014/announcement logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
