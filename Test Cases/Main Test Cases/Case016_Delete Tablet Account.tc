@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>裝置解除戶別</description>
+   <name>Case016_Delete Tablet Account</name>
+   <tag>Delete Tablet</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b63a5040-fb1a-477f-b5a2-971857731bdb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d28cc29-09bf-4fc8-874f-258b631519a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2TTPT29BJ614ZRV9'</defaultValue>
+      <description>code</description>
+      <id>8d28cc29-09bf-4fc8-874f-258b631519a3</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

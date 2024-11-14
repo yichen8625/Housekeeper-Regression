@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>從郵務管理完成登出</description>
+   <name>Case013_Package Management Logout</name>
+   <tag>Logout</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>acb92c9b-bf54-42aa-85b8-02dc805c5b29</testCaseGuid>
+</TestCaseEntity>

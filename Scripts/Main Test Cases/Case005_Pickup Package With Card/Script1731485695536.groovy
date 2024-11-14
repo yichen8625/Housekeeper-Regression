@@ -14,7 +14,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testobject.RestRequestObjectBuilder
@@ -29,13 +28,52 @@ import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
+import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonOutput
 
-WebUI.openBrowser('')
+'導航至管理版首頁'
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
-WebUI.deleteAllCookies()
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.waitForPageLoad(2)
 
+'郵務管理-領取'
+WebUI.click(findTestObject('Object Repository/Table Page/div_Package'))
+
+WebUI.click(findTestObject('Object Repository/Page_Package/div_Pickup'))
+
+'領取方式-門禁卡、磁釦'
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Page_Package/Pickup Packages Page/btn_CameraConfirm'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Package/Pickup Packages Page/div_Card'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Page_Package/Pickup Packages Page/input_CardToken'), code)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Package/Pickup Packages Page/input_CardToken'), Keys.chord(Keys.ENTER))
+
+
+'信件包裹領取'
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Packages Confirm Page/div_Title'), 3)
+
+WebUI.click(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Packages Confirm Page/label_SelectAll'))
+
+WebUI.click(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Packages Confirm Page/label_SelectFirst'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Packages Confirm Page/span_Receive'), 3)
+
+WebUI.click(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Packages Confirm Page/span_Receive'))
+
+WebUI.delay(3)
+//截圖路徑
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case05 用門禁卡領取包裹\\門禁卡、磁釦領取包裹.png')
+
+WebUI.closeBrowser()
+
+/* 
 '取得管理版 user token'
 def response = WS.sendRequest(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Postman/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
@@ -111,3 +149,11 @@ def List = WS.sendRequest(PostalList)
 println(List.statusCode);
 println(List.responseBodyContent);
 assert List.getStatusCode() == 200;
+
+def tt = JsonOutput.toJson(List)
+return tt
+
+WebUI.delay(10)
+*/
+
+

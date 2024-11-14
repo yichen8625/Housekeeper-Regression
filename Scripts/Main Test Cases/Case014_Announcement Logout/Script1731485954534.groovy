@@ -17,20 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+'導航至管理版首頁'
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
-WebUI.deleteAllCookies()
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.waitForPageLoad(2)
 
-'管理版登入'
-WebUI.setText(findTestObject('Object Repository/Login Page/input_account'), phone)
+'社區公告登記'
+WebUI.click(findTestObject('Object Repository/Table Page/div_Announcement'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/input_password'), pw)
+WebUI.delay(2)
 
-'登入'
-WebUI.click(findTestObject('Object Repository/Login Page/btn_login'))
+'新增公告'
+WebUI.click(findTestObject('Object Repository/Page_Announcement/btn_AddAnnouncement'))
 
-'登入社區'
-WebUI.click(findTestObject('Object Repository/Login Page/btn_community'))
+'展開列表'
+WebUI.click(findTestObject("Object Repository/Table Page/Header/div_CommunityManage"))
 
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case14 能從公告列表頁完成登出\\登出前.png')
+
+WebUI.click(findTestObject("Object Repository/Table Page/Header/div_Logout"))
+
+'登出後截圖'
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case14 能從公告列表頁完成登出\\登出後.png')

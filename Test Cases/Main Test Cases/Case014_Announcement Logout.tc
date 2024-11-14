@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>從公告列表頁完成登出</description>
+   <name>Case014_Announcement Logout</name>
+   <tag>Logout</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e85b56e-ad18-4d64-9952-d197878e1104</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>094a730b-ac84-4ea6-9129-6dd1059c783b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'公告標題測試'</defaultValue>
+      <description>announcement title</description>
+      <id>094a730b-ac84-4ea6-9129-6dd1059c783b</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

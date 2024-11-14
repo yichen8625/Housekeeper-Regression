@@ -17,20 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+'導航至管理版首頁'
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
-WebUI.deleteAllCookies()
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.waitForPageLoad(2)
 
-'管理版登入'
-WebUI.setText(findTestObject('Object Repository/Login Page/input_account'), phone)
+'郵務管理-登記'
+WebUI.click(findTestObject("Object Repository/Table Page/div_Package"))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/input_password'), pw)
+'展開列表'
+WebUI.click(findTestObject("Object Repository/Table Page/Header/a_LoginInfo"))
 
-'登入'
-WebUI.click(findTestObject('Object Repository/Login Page/btn_login'))
+WebUI.delay(3)
 
-'登入社區'
-WebUI.click(findTestObject('Object Repository/Login Page/btn_community'))
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case13 管理員能從郵務管理完成登出\\登出前.png')
 
+WebUI.click(findTestObject("Object Repository/Table Page/Header/btn_logout"))
+
+'登出後截圖'
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case13 管理員能從郵務管理完成登出\\登出後.png')

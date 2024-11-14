@@ -17,20 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+'導航至管理版首頁'
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
-WebUI.deleteAllCookies()
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.waitForPageLoad(2)
 
-'管理版登入'
-WebUI.setText(findTestObject('Object Repository/Login Page/input_account'), phone)
+'close toast'
+WebUI.click(findTestObject('Object Repository/Table Page/i_ToastClose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/input_password'), pw)
+WebUI.click(findTestObject("Object Repository/Table Page/div_Tablet"))
 
-'登入'
-WebUI.click(findTestObject('Object Repository/Login Page/btn_login'))
+'住戶開通進階功能'
+WebUI.click(findTestObject('Object Repository/Page_Tablet/span_AdvanceFunction'))
 
-'登入社區'
-WebUI.click(findTestObject('Object Repository/Login Page/btn_community'))
+WebUI.waitForPageLoad(3)
 
+'住戶裝置資訊'
+WebUI.click(findTestObject('Object Repository/Page_Tablet/Tablet Devices Info Page/btn_Search'))
+
+WebUI.takeScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case16 能用智生活管理版Web完成裝置解除戶別\\After解除戶別.png')
+
+WebUI.click(findTestObject('Object Repository/Page_Tablet/Tablet Devices Info Page/btn_QuicklyTermination Device'))
+
+'快速解除裝置'
+WebUI.setText(findTestObject('Object Repository/Page_Tablet/Tablet Devices Info Page/input_DeviceToken'), code)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Tablet/Tablet Devices Info Page/input_DeviceToken'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case16 能用智生活管理版Web完成裝置解除戶別\\Before解除戶別.png')

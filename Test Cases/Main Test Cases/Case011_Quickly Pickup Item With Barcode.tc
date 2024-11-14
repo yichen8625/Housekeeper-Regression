@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(快速領取) 智生活手機條碼領取寄放物品</description>
+   <name>Case011_Quickly Pickup Item With Barcode</name>
+   <tag>Pickup Item</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0faa88d3-fffb-4bc2-a927-37856fee5d07</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eed6acda-dc97-42f7-98a0-a1cb5afb6618</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'8FDRJ6B692TJ7DNX'</defaultValue>
+      <description></description>
+      <id>eed6acda-dc97-42f7-98a0-a1cb5afb6618</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

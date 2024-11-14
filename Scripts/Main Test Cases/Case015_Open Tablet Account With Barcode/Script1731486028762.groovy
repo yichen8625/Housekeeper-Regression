@@ -18,46 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 '導航至管理版首頁'
-WebUI.navigateToUrl("https://test.kingnetsmart.com.tw/community/main.aspx")
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(2)
 
-'郵務管理-登記'
-WebUI.click(findTestObject("Object Repository/Table Page/div_Package"))
+'close toast'
+WebUI.click(findTestObject('Object Repository/Table Page/i_ToastClose'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Package/div_Register'))
+WebUI.click(findTestObject("Object Repository/Table Page/div_Tablet"))
 
-'信件包裹類型'
-WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/option_Package"))
-
-'選擇B2F3住戶資訊'
-WebUI.click(findTestObject("null"))
-
+'快速開通服務'
 WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/Tablet Info Popup/option_Building (太陽)"))
 
-WebUI.click(findTestObject("Object Repository/Page_Tablet/option_Floor (1樓)"))
+WebUI.click(findTestObject('Object Repository/Page_Tablet/option_Floor (1樓)'))
 
-WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/Tablet Info Popup/option_太陽1樓-1"))
+WebUI.click(findTestObject('Object Repository/Page_Tablet/option_Tablet (太陽1樓-1)'))
 
-WebUI.click(findTestObject("null"), FailureHandling.CONTINUE_ON_FAILURE)
+'選擇開通方式'
+WebUI.click(findTestObject("Object Repository/Page_Tablet/Activate Pages/div_Barcode"))
 
-'收件人'
-// WebUI.setText(findTestObject("null"), addressee)
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case15 能用智生活App手機條碼完成裝置開通戶別\\手機條碼掃描.png')
 
-'通知住戶'
-WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/btn_NotifyAddressee"))
-/*
-'確認完成'
-WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/btn_ConfirmComplete"))
-*/
-'登記成功截圖'
-WebUI.delay(3)
-//截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
+WebUI.setText(findTestObject('Object Repository/Page_Tablet/Activate Pages/input_BarcodeToken'), code)
 
-'包裹登記結果'
-WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/btn_ConfirmLeave"))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Tablet/Activate Pages/input_BarcodeToken'), Keys.chord(Keys.ENTER))
 
-WebUI.closeBrowser()
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case15 能用智生活App手機條碼完成裝置開通戶別\\手機條碼開通戶別.png')

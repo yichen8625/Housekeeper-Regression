@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 '導航至管理版首頁'
-WebUI.navigateToUrl("https://test.kingnetsmart.com.tw/community/main.aspx")
+WebUI.navigateToUrl(GlobalVariable.G_community)
 
 WebUI.maximizeWindow()
 
@@ -33,18 +33,18 @@ WebUI.click(findTestObject('Object Repository/Page_Package/div_Register'))
 WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/option_Package"))
 
 '選擇B2F3住戶資訊'
-WebUI.click(findTestObject("null"))
+WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/btn_SelectTablet"))
 
 WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/Tablet Info Popup/option_Building (太陽)"))
 
-WebUI.click(findTestObject("Object Repository/Page_Tablet/option_Floor (1樓)"))
+WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/Tablet Info Popup/option_Floor (1樓)"))
 
 WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/Tablet Info Popup/option_太陽1樓-1"))
 
-WebUI.click(findTestObject("null"), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject("null"), FailureHandling.CONTINUE_ON_FAILURE)
 
 '收件人'
-// WebUI.setText(findTestObject("null"), addressee)
+WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/option_RegisterName"))
 
 '通知住戶'
 WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/btn_NotifyAddressee"))
@@ -55,9 +55,9 @@ WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Pag
 '登記成功截圖'
 WebUI.delay(3)
 //截圖路徑
-WebUI.takeFullPageScreenshot('C:\\Users\\noahc\\Katalon Studio\\Sprint3-housekeeper (Noah) 2.0\\ScreenShoot\\register.png')
+WebUI.takeFullPageScreenshot('C:\\AutoTest-MGMT (Screenshoot)\\Case01 登記全戶通知包裹\\(太陽1樓-1)包裹登記.png')
 
 '包裹登記結果'
 WebUI.click(findTestObject("Object Repository/Page_Package/Register Packages Page/btn_ConfirmLeave"))
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>智生活App手機條碼完成裝置開通戶別</description>
+   <name>Case015_Open Tablet Account With Barcode</name>
+   <tag>Open Tablet</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e966bb5a-2881-44d1-a133-1af02156dd9f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7e6fbfd-7cfa-4c95-b452-35eaaadf3780</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2TTPT29BJ614ZRV9'</defaultValue>
+      <description>code</description>
+      <id>c7e6fbfd-7cfa-4c95-b452-35eaaadf3780</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

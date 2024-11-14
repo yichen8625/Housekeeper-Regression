@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>門禁卡完成裝置開通戶別</description>
+   <name>Case017_Open Tablet Account With Card</name>
+   <tag>Open Tablet</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b49e8b0-dbbf-4b5d-b902-869265aa664e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36f3c46f-65ac-4d49-9f13-c03c2774fe59</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0260002005'</defaultValue>
+      <description>code</description>
+      <id>36f3c46f-65ac-4d49-9f13-c03c2774fe59</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

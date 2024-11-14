@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>門禁卡解除戶別</description>
+   <name>Case018_Delete Tablet Account With Card</name>
+   <tag>Delete Tablet</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f664ff09-db7d-44b5-8b22-dbeb46c9b13d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0fe71a5-79c0-424b-9659-7b2ce8a7ddfd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0260002005'</defaultValue>
+      <description>code</description>
+      <id>e0fe71a5-79c0-424b-9659-7b2ce8a7ddfd</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>
