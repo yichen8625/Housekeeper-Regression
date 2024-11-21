@@ -12,6 +12,25 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a174413b-7438-4440-a3f5-f7797a11a8e3</testSuiteGuid>
    <testCaseLink>
+      <guid>0c07f1d0-0a74-4a30-8d4b-9bda7ee96e24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Test Cases/Housekeeper Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e1bfde1-cbd5-45ed-9846-1015bdad4fdd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eba69b9f-6177-4da7-9579-b3cbb18762aa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a34a49c5-054b-47d2-a356-374ae4258c1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

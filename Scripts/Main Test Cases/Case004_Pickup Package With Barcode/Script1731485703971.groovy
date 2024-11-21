@@ -75,7 +75,7 @@ WebUI.closeBrowser()
 
 /* 
 '取得管理版 user token'
-def response = WS.sendRequest(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Postman/1. Get Token'));
+def response = WS.sendRequest(findTestObject('Object Repository/Postman (api test)/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
 

@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;Token\&quot;:\&quot;\u0027+GlobalVariable.G_H_TOKEN+\u0027\&quot;,\&quot;ComId\&quot;:\&quot;\u0027+17041002+\u0027\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\&quot;Token\&quot;:\&quot;\u0027+GlobalVariable.G_H_TOKEN+\u0027\&quot;,\&quot;ComId\&quot;:\&quot;\u0027+24091302+\u0027\&quot;}&quot;,
   &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,7 +30,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://test.kingnetsmart.com.tw/mvc/api/Login/CommunityLogin</restUrl>
+   <restUrl>https://kingnetsmart.com.tw/mvc/api/Login/CommunityLogin</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

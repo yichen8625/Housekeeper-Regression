@@ -30,14 +30,9 @@ import groovy.json.JsonSlurper
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
 
-WebUI.openBrowser('')
-
-WebUI.deleteAllCookies()
-
-WebUI.navigateToUrl(GlobalVariable.G_URL)
 
 '取得管理版 user token'
-def response = WS.sendRequest(findTestObject('Object Repository/Page_Package/Pickup Packages Page/Postman/1. Get Token'));
+def response = WS.sendRequest(findTestObject('Object Repository/Postman (api test)/1. Get Token'));
 def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent());
 
 
@@ -55,7 +50,7 @@ def requestObject_c_login = CommunityLogin
     .withHttpHeaders([
         new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
     ])
-    .withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+17041002+'"}')
+    .withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+24091302+'"}')
     .build()
 	
 // request to /api/Login/CommunityLogin
@@ -79,12 +74,12 @@ if (cookies != null && cookies.size() > 0) {
 def checkUserCode = new RestRequestObjectBuilder()
 def requestObject_cc = checkUserCode
 	.withRestRequestMethod("POST")
-	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/checkUserCode")
+	.withRestUrl("https://kingnetsmart.com.tw/ajax/ajax.asmx/checkUserCode")
 	.withHttpHeaders([
 		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_community}"),
 		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
 ])
-	.withTextBodyContent('code=583RHBP23D145014')
+	.withTextBodyContent('code=8FDRJ6B692TJ7DNX')
 		.build()
 
 def UserCode = WS.sendRequest(requestObject_cc)
@@ -97,12 +92,12 @@ assert UserCode.getStatusCode() == 200;
 def getPostalList = new RestRequestObjectBuilder()
 def PostalList = getPostalList
 	.withRestRequestMethod("POST")
-	.withRestUrl("https://test.kingnetsmart.com.tw/ajax/ajax.asmx/getPostalList")
+	.withRestUrl("https://kingnetsmart.com.tw/ajax/ajax.asmx/getPostalList")
 	.withHttpHeaders([
 		new TestObjectProperty("Cookie", ConditionType.EQUALS,"${GlobalVariable.G_community}"),
 		new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/x-www-form-urlencoded")
 ])
-	.withTextBodyContent("jsonStr=[{\"condition\":\"[{\\\"name\\\":\\\"a\\\",\\\"val\\\":\\\"2\\\"},{\\\"name\\\":\\\"b\\\",\\\"val\\\":\\\"1704100010\\\"}]\"}]")
+	.withTextBodyContent("jsonStr=[{\"condition\":\"[{\\\"name\\\":\\\"a\\\",\\\"val\\\":\\\"2\\\"},{\\\"name\\\":\\\"b\\\",\\\"val\\\":\\\"2409191134\\\"}]\"}]")
 
 	//.withTextBodyContent('{"Token":"'+GlobalVariable.G_H_TOKEN+'","ComId":"'+17041002+'"}')	
 	.build()
