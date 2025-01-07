@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>門禁卡解除戶別</description>
+   <name>Case019</name>
+   <tag>Delete Tablet</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaecaaf2-b109-4804-96eb-15d630d3c5dc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>895e3b32-e1e1-4746-8e4b-0ef44e9d175b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0260002005'</defaultValue>
+      <description>code</description>
+      <id>895e3b32-e1e1-4746-8e4b-0ef44e9d175b</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>
